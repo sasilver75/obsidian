@@ -24,7 +24,13 @@ Before 2010, agencies used dozens of inconsistent labels for this material, but 
 
 No security clearance is required, but access is limited to those with a legitimate need.
 
+i
 
+> "Theres a legal notion of something being CUI by composite. There's unclassified data that you can find on the internet, but... some of that unclassified un-sensitive information when you get it into one place..." The concern in Smack is that we demo with doctrinal publications that you can find publicly on the internet... and we're putting it in one place and stitching it together with some processing software that does things with some...This might be CUI by composite, which means that it might be inappropriate to keep it in AWS Commercial (e.g. Demo vs Gov)... which is probably why we would want ot move dev/staging to the gov cloud too... that said... we ARE also trying to sell to the Japanese/Taiwanese government.... we need to be able to demo them something. So we'll probably have a data environment in commercial for those international customers...
+
+
+https://cyberintelsystems.com/classification-codes/
+Classification codes
 
 
 

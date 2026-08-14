@@ -107,14 +107,14 @@ Services:
 		- Two main roles
 			- Embedding generation exposed over gRPC (how `ragnarok` turns text into vectors for retrieval)
 			- Runs Temporal workers that execute conversation ("converse") workflows for callers like `aegis` and `herald`.
-				- Can run an iterative tool-use loop (fetching tool definition from `hermes`, letting the mode call tools, feeding results bakc, and repeating until the model produces a final answer), and when a caller asks for schema-constrained ==structured output==, it tries several resolution strategies (native structure output, tool-based structured output, and  fallback workflow) before giving up.
+				- Can run an iterative tool-use loop (fetching tool definition from `hermes`, letting the mode call tools, feeding results back, and repeating until the model produces a final answer), and when a caller asks for schema-constrained ==structured output==, it tries several resolution strategies (native structure output, tool-based structured output, and  fallback workflow) before giving up.
 		- The gateway role is central to the air-gapped readiness principle: `rosetta` can be pointed at cloud providers like Bedrock, OpenAI, or Anthropic in connected deployments, or at a customer-provided, OpenAI,-compatible inference service running inside the cluster.
 	- ==Argus== (SAILS tasking model)
 		- The ML inference service behind the SAILS product's tasking recommendations. It wraps the MADiff allocation engine, and given current product positions, returns predicted trajectories, recommended MQ-4C orbit stations, and track-quality scores that the SAILS UI renders on the map.
 		- Unlike `sisrs`, which solves an optimization model, `argus` performs neural-network inference, loading a pretrained PyTorch model checkpoint and runs it (CPU is enough; GPU optional) to produce its recommendations.
 			- The model is trained offline from data produced by the `synthetic_warefare_generation_autogen` research pipeline, which generates LLM-driven naval warfare scenarios.
 			- `argus` mirrors the relevant inference code out of that researcher repo so that production inferences stays decoupled from the training environment
-		- The Python PyTorch inference service behind SAILS tasking recommendations, wrapping the "MADiff" ISR allocaftion model and returning predicted trajectories, orbit-station recommendations, adn track-quality scores. GPU-optional, CPU-csufficient.
+		- The Python PyTorch inference service behind SAILS tasking recommendations, wrapping the "MADiff" ISR allocaftion model and returning predicted trajectories, orbit-station recommendations, adn track-quality scores. GPU-optional, CPU-sufficient.
 	- Authentication and Authorization
 		- Handled by two small, separate services: `spicy` for authentication (who a user is) and `saucy` for authorization (waht a user is allowed to do).
 		- Keeping them split lets us reason about identity/permissions independency, and let a deployment federate identity to a customer's existing identity provider without disturbing how permissions are modeled.

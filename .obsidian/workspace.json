@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Smack/Smack Onboarding.md",
+                "file": "Smack/Onboarding/Onboarding Session with RPC August 13.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Smack Onboarding"
+              "title": "Onboarding Session with RPC August 13"
             }
           },
           {
-            "id": "c3517bca8a3c8d8e",
+            "id": "d7d8e8ed9d51de08",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled 11.md",
+                "file": "OpenShift.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Untitled 11"
+              "title": "OpenShift"
+            }
+          },
+          {
+            "id": "e0fc1c534a3a9845",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OpenShift.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "OpenShift"
             }
           }
         ],
@@ -76,7 +100,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -88,7 +114,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"five line\"",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -109,8 +135,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -255,9 +280,31 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c3517bca8a3c8d8e",
+  "active": "d7d8e8ed9d51de08",
   "lastOpenFiles": [
+    "Force Protection Condition.md",
+    "_attachments/Pasted image 20260813165528.png",
+    "Common Access Card.md",
+    "Chengdu Aircraft Corporation.md",
     "Smack/Smack Onboarding.md",
+    "Smack Technologies.md",
+    "Smack/Onboarding/Onboarding Session with RPC August 13.md",
+    "Clay.md",
+    "OpenShift.md",
+    "Session.md",
+    "JSON Web Token.md",
+    "_attachments/Pasted image 20260813153414.png",
+    "Smack/SAILS.md",
+    "Impact Level.md",
+    "Impact Level 6.md",
+    "Authorization to Operate.md",
+    "Aviation Technology Office.md",
+    "Secret Classification.md",
+    "Controlled Unclassified Information.md",
+    "Smack/Onboarding",
+    "Defense Intelligence Agency.md",
+    "Smack/All-Hands/All-Hands August 13, 2026.md",
+    "Smack/All-Hands",
     "Untitled 11.md",
     "_attachments/Pasted image 20260806002333.png",
     "_attachments/Pasted image 20260806002329.png",
@@ -267,32 +314,11 @@
     "Development Seed.md",
     "Grafana Loki.md",
     "Grafana Mimir.md",
-    "Grafana Tempo.md",
-    "Mako.md",
-    "Maritime Intelligence Operations Center.md",
-    "S4 Officer.md",
-    "Specular Reflection.md",
-    "Army Special Operations Command.md",
-    "1st Special Forces Command.md",
-    "Salvo.md",
-    "Call for Fire.md",
-    "Firepower Kill.md",
-    "Mobility Kill.md",
-    "Phase Line.md",
-    "Strike Package.md",
-    "Combined Enterprise Regional Information Exchange System.md",
-    "Exclusive Economic Zone.md",
-    "Line of Effort.md",
-    "No Foreign Dissemination.md",
-    "Limited Dissemination Control.md",
-    "Priority Intelligence Requirement.md",
     "_attachments/Pasted image 20260810135837.png",
     "_attachments/Pasted image 20260810124025.png",
     "_attachments/Pasted image 20260810124018.png",
     "_attachments/Pasted image 20260810124009.png",
     "_attachments/Pasted image 20260806133036.png",
-    "_attachments/Pasted image 20260806122414.png",
-    "_attachments/Pasted image 20260806122343.png",
     "Smack",
     "RC-135V",
     "explainers/Inbox Pattern/script.js",
@@ -300,8 +326,6 @@
     "explainers/Inbox Pattern/index.html",
     "explainers/Inbox Pattern",
     "explainers",
-    "flashcards/system-design-questions-anki.tsv",
-    "A",
-    "flashcards/high-priority-system-design-anki.tsv"
+    "flashcards/system-design-questions-anki.tsv"
   ]
 }
