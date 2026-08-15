@@ -55,3 +55,13 @@ Andy
 		- WE all know that we're building hardware, but at the end of the day, if we don't deliver Alpha to individuals, platforms, we won't be able to execute decentralized decision-making ia  DDIL environment. Omega is important (brain, commander's intent, guidance), but the future of war nad winning against a peer=level addersary requires implementing Alpha, an so the next phase is executing on prototyping and putiting Alpha into production. This next year is getting Alpha there, because nothing matters if we don't deliver Alpha to the edge. 
 		- We'll be talking about hadrware, intelligent autonomy ,etc... 
 		- Opening for questions, Clint and I knew nothing about fundraising, and our investors have helped us out alot. The thing that's gotten us to where we are so far is th team that we're putting together. The team has grown a lot... but if you look at...tech, growth, etc... the team is gangster. We are "Marines doing AI good"; there are still key hirs hires to make on the AI research side.... but we wouldn't have made it here with yall.
+
+
+
+_____________-
+
+COA Generation/P2C (Plan to Concept) for MCWL
+- One of the most complicated products that we have.
+	- Last time we looked at the JADO ISR one... ((I think he said? or JFN?  Yees, thats the same thing)), that's sort of the modal product for us. Briefly shared with us Typhoon too, which works in pretty much the same way. SAILS is similar in that it .... hasn'hits an RL model instead of an OR model, but.... similar.
+	- MCWL is the thing that's different; COA generation is differnet, very LLM-driven, and has a lot more..... business understanding built into it.
+	- They looked at it 90 minutes 3 times and got through half the product.

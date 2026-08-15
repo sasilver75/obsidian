@@ -993,10 +993,13 @@ Things to get access to:
     - If you're in the El Segundo office, talk to Trevor about getting a 4-digit door code (Enter as "XXXX#") and a parking pass. The latter requires that you have outlook access, as it involves an email being sent to you, you filling out a PDF, and sending it back to Trevor.
 - Codex/LLM Access
     - ...?
+    - It seems that we most commonly have a cursor subscription
+    - I asked my manager (JCoogan) for a Codex account and... got one. So... coool?
 - Knowledge Graph
 	- Get invited to the Neo4j Aura organization (Coogan; will result in an email being sent to your outlook, accept it), then get invited to the "System Ontology" Project inside Aura. Smack Neo Dev is our development one.
 - AWS Console access
 	- Ask Stewart
+	- Then you just log in with your smack email, I think? It seems like I set my own password here, so...
 - Notion
 	- Got access from asking Jules
 - Linear
