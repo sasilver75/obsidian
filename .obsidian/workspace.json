@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Full-Motion Video.md",
+                "file": "Chief Digital and Artificial Intelligence Office.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Full-Motion Video"
+              "title": "Chief Digital and Artificial Intelligence Office"
             }
           },
           {
@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mission Kill.md",
+                "file": "Annual Contract Value.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Mission Kill"
+              "title": "Annual Contract Value"
             }
           },
           {
@@ -151,8 +151,7 @@
               "title": "OpenShift"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -211,8 +210,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "d6ed0fac49903124",
@@ -352,11 +350,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "65ac0dddad4d79e4",
+  "active": "29cbe107af740143",
   "lastOpenFiles": [
+    "Smack/KG Syncs/KG Sync August 17.md",
     "Full-Motion Video.md",
     "Firepower Kill.md",
+    "Annual Contract Value.md",
     "Mission Kill.md",
+    "Smack/KG Syncs",
     "Link Monitoring and Management Tool.md",
     "Last Supper.md",
     "Global Command and Control System.md",
@@ -379,8 +380,6 @@
     "Tailscale.md",
     "Force Protection Condition.md",
     "_attachments/Pasted image 20260813165528.png",
-    "Common Access Card.md",
-    "Chengdu Aircraft Corporation.md",
     "_attachments/Pasted image 20260813153414.png",
     "Smack/Onboarding",
     "Smack/All-Hands",
@@ -398,7 +397,6 @@
     "explainers/Inbox Pattern/styles.css",
     "explainers/Inbox Pattern/index.html",
     "explainers/Inbox Pattern",
-    "explainers",
-    "flashcards/system-design-questions-anki.tsv"
+    "explainers"
   ]
 }
