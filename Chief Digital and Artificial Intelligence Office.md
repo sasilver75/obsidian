@@ -10,4 +10,7 @@ The goal is to use AI to solve large and complex problem sets that span multiple
 
 
 
-> The CDAO Repsonsible AI Toolkit (RAI) 
+> The CDAO Responsible AI Toolkit (RAI) is ... a total smattering of incoherently combined things.. there's no coherence to it at all, and it's basically because the CDAO people don't know... so if we say that we're doing *something,* they'll say "That's great!" but if we say *no* uncertainty metrics, that will be no good.
+
+
+

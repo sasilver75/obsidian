@@ -61,3 +61,5 @@ SatOps: Do we have anything at Smack that uses structured satellite operations, 
 
 DEN stuff shifts... was escort, now it's looking at [[Air Interdiction of Maritime Target|AIMT]]... MVP that we show clients is fluid... I suspect that there's more work to do... for the GRaph to do, and more experts to egnage in than is possible, and so we'd want to hve a structured way to do that... because Olivia quickly will not be able to talk to everyone that John has.
 - But we ant to record the meetings, because if you're not there to ask the right graph architecture questions, it won't matter.
+
+

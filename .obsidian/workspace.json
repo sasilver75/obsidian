@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Chief Digital and Artificial Intelligence Office.md",
+                "file": "Smack/Smack Onboarding.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,127 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Chief Digital and Artificial Intelligence Office"
-            }
-          },
-          {
-            "id": "65ac0dddad4d79e4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Annual Contract Value.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Annual Contract Value"
-            }
-          },
-          {
-            "id": "2d209b26b90fbcea",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Link Monitoring and Management Tool.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Link Monitoring and Management Tool"
-            }
-          },
-          {
-            "id": "9b14f6dd59557ac9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Track Confidence.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Track Confidence"
-            }
-          },
-          {
-            "id": "0cc10bf8e9eca745",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Smack/All-Hands/All-Hands August 13, 14, 2026.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "All-Hands August 13, 14, 2026"
-            }
-          },
-          {
-            "id": "e0fc1c534a3a9845",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OpenShift.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "OpenShift"
+              "title": "Smack Onboarding"
             }
           }
         ]
@@ -352,33 +232,34 @@
   },
   "active": "29cbe107af740143",
   "lastOpenFiles": [
+    "Information System Security Manager.md",
+    "Smack/Contracts/SAILS.md",
+    "Annual Contract Value.md",
+    "Link Monitoring and Management Tool.md",
+    "Track Confidence.md",
+    "Anti-Submarine Rocket.md",
+    "Naval Gunfire Support.md",
+    "Strike Warfare.md",
+    "Smack/Contracts/SOLIC.md",
     "Smack/KG Syncs/KG Sync August 17.md",
+    "OpenShift.md",
+    "~ Ideas.md",
+    "Smack/All-Hands/All-Hands August 13, 14, 2026.md",
+    "Chief Digital and Artificial Intelligence Office.md",
+    "Smack/Contracts",
+    "conflict-files-obsidian-git.md",
+    "Space Domain Awareness.md",
+    "Jinking.md",
+    "Highly-Elliptical Orbit.md",
+    "Golden Dome.md",
+    "Cislunar.md",
     "Full-Motion Video.md",
     "Firepower Kill.md",
-    "Annual Contract Value.md",
     "Mission Kill.md",
     "Smack/KG Syncs",
-    "Link Monitoring and Management Tool.md",
     "Last Supper.md",
     "Global Command and Control System.md",
-    "conflict-files-obsidian-git.md",
     "Mobility Kill.md",
-    "Catastrophic Kill.md",
-    "Fast Attack Craft.md",
-    "Unconventional Warfare.md",
-    "Irregular Warfare.md",
-    "Track Confidence.md",
-    "Smack/Smack Onboarding.md",
-    "Aegis Combat System.md",
-    "Smack/SAILS.md",
-    "Find, Fix, Track, Target, Engage, Assess.md",
-    "Smack/All-Hands/All-Hands August 13, 14, 2026.md",
-    "National Counterintelligence Security Center.md",
-    "Bureau of Intelligence and Research.md",
-    "Smack/Onboarding/Onboarding Session with RPC August 13.md",
-    "OpenShift.md",
-    "Tailscale.md",
-    "Force Protection Condition.md",
     "_attachments/Pasted image 20260813165528.png",
     "_attachments/Pasted image 20260813153414.png",
     "Smack/Onboarding",
@@ -396,7 +277,6 @@
     "explainers/Inbox Pattern/script.js",
     "explainers/Inbox Pattern/styles.css",
     "explainers/Inbox Pattern/index.html",
-    "explainers/Inbox Pattern",
-    "explainers"
+    "explainers/Inbox Pattern"
   ]
 }

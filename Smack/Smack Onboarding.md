@@ -1003,7 +1003,7 @@ Things to get access to:
 - Notion
 	- Got access from asking Jules
 - Linear
-	- You can just log in with your sharepoint.
+	- You can just log in with your Google SSO.
 
 
 
