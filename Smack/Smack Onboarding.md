@@ -985,7 +985,7 @@ Things to get access to:
     - Ask anyone to send you a Slack invite, which will arrive to your Outlook inbox.
     - Make sure to use the "Browse Channel" feature to add enough channels to give you a broad understanding of the work going on at Smack.
 - Ramp
-    - I received an invite to create a Ramp acccount for Smack Technoologies in my Outlook inbox that was set to expire on the second day. 
+    - I received an invite to create a Ramp account for Smack Technologies in my Outlook inbox that was set to expire on the second day. 
     - It didn't seem to me like I was able to do the suggested "Mailbox, Receipts from your work inbox" integration s.t. receipts in my inbox are automatically ingested to Ramp, but I was able to download the Chrome extension of course 😁. Add phone 2FA if you'd like, after SMS verification code.
 - PROCAS
 	- I got an invite to create a PROCAS account via email on my first day, expiring about a week later. From invites@procas.com.
