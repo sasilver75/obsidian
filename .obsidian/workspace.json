@@ -109,7 +109,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spratly Islands.md",
+                "file": "Fox.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -124,7 +124,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Spratly Islands"
+              "title": "Fox"
+            }
+          },
+          {
+            "id": "a8145789bdea6d6a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Brevity Code.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Brevity Code"
             }
           },
           {
@@ -2383,9 +2407,11 @@
   },
   "active": "26f1233c609ff15a",
   "lastOpenFiles": [
+    "Brevity Code.md",
+    "Fox.md",
+    "Spratly Islands.md",
     "_attachments/Pasted image 20260822162123.png",
     "Exclusive Economic Zone.md",
-    "Spratly Islands.md",
     "_attachments/Pasted image 20260822162038.png",
     "_attachments/Pasted image 20260822162030.png",
     "Forward Arming and Refueling Point.md",
@@ -2412,7 +2438,6 @@
     "Defense Resources (Index).md",
     "C-12 Huron.md",
     "conflict-files-obsidian-git.md",
-    "Track Confidence.md",
     "_attachments/Pasted image 20260813165528.png",
     "_attachments/Pasted image 20260813153414.png",
     "_attachments/Pasted image 20260810135837.png",
@@ -2420,7 +2445,6 @@
     "_attachments/Pasted image 20260810124018.png",
     "_attachments/Pasted image 20260810124009.png",
     "_attachments/Pasted image 20260806133036.png",
-    "_attachments/Pasted image 20260806122414.png",
     "Smack/Onboarding",
     "Smack/All-Hands",
     "Smack",
