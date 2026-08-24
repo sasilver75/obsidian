@@ -133,7 +133,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AIM-424 Long Range Air-to-Air Missile.md",
+                "file": "National Counterintelligence Security Center.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -148,7 +148,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "AIM-424 Long Range Air-to-Air Missile"
+              "title": "National Counterintelligence Security Center"
+            }
+          },
+          {
+            "id": "1be1acd00222991c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AGM-114 Hellfire.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "AGM-114 Hellfire"
             }
           },
           {
@@ -2431,9 +2455,16 @@
   },
   "active": "f29bc031a97fab1f",
   "lastOpenFiles": [
-    "_attachments/Pasted image 20260823161411.png",
-    "AIM-424 Long Range Air-to-Air Missile.md",
+    "Tempest.md",
+    "Cost-Plus-Fixed-Fee.md",
     "Perennial Autonomy Bumblebee.md",
+    "AGM-114 Hellfire.md",
+    "_attachments/Pasted image 20260823172435.png",
+    "Ancillary Surface Craft.md",
+    "_attachments/Pasted image 20260823171916.png",
+    "_attachments/Pasted image 20260823171858.png",
+    "AIM-424 Long Range Air-to-Air Missile.md",
+    "_attachments/Pasted image 20260823161411.png",
     "_attachments/Pasted image 20260823103810.png",
     "Fox.md",
     "Brevity Code.md",
@@ -2460,15 +2491,8 @@
     "Annual Contract Value.md",
     "Ballistic Missile.md",
     "Space Domain Awareness.md",
-    "Highly-Elliptical Orbit.md",
-    "Cislunar.md",
-    "Jinking.md",
     "_attachments/Pasted image 20260813165528.png",
     "_attachments/Pasted image 20260813153414.png",
-    "_attachments/Pasted image 20260810135837.png",
-    "_attachments/Pasted image 20260810124025.png",
-    "_attachments/Pasted image 20260810124018.png",
-    "_attachments/Pasted image 20260810124009.png",
     "Smack/Onboarding",
     "Smack/All-Hands",
     "Smack",
