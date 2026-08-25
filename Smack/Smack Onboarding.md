@@ -991,6 +991,7 @@ Things to get access to:
 	- I got an invite to create a PROCAS account via email on my first day, expiring about a week later. From invites@procas.com.
 - Door access, parking pass
     - If you're in the El Segundo office, talk to Trevor about getting a 4-digit door code (Enter as "XXXX#") and a parking pass. The latter requires that you have outlook access, as it involves an email being sent to you, you filling out a PDF, and sending it back to Trevor.
+    - Note that for now, the swingy arm thing in the parking lot is "broken," and they don't even check for a ticket on the way out. So there's no current reason to get a parking pass, but perhaps you ought to anyways.
 - Codex/LLM Access
     - ...?
     - It seems that we most commonly have a cursor subscription
@@ -1004,7 +1005,22 @@ Things to get access to:
 	- Got access from asking Jules
 - Linear
 	- You can just log in with your Google SSO.
-
+- Ironbank
+	- Create your own account at https://p1.dso.mil/ using your Smack email (I said I'm a Software Engineer, Other service branch, a "Not Listed" contractor). It doesn't seem that there's 
+	- If you're having strange redirects when trying to sign up, there are some validation checks and errors that don't get surfaced to the UI that caused me to rip my hair out. First, your password can't (afaict) have any repeating adjacent characters. So no "!!" at the end of your password to hit that two special character limit 😜. Also, if your username isn't available (e.g. "ssilver", the username/prefix part of my smack address), it will quietly fail with no indication, so try varying that if you have problems.
+- Chainguard
+	- We're limited on Chainguard seats, so Sam is the designated Chainguard-y guy for BHG so that we can save most of them for AppEng/FDEs.
+	- With that said, if you need access to Chainguard, create an account at https://www.chainguard.dev/ with your  smack email address and then ask an adult (I asked RPC) to send you an invite/seat, which will arrive at your Outlook inbox.
+	- Also remember to install the cli tools:
+		- ```
+		  brew tap chainguard-dev/tap
+		  brew trust --tap chainguard-dev/tap
+		  brew install chainctl
+		  chainctl auth login
+		  chainctl auth configure-docker
+		  ```
+- Smack Decision Dominance Sharepoint
+	- "Sometimes the artifacts that get "
 
 
 

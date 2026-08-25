@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Small Business Innovation Research.md",
+                "file": "Smack/Smackspace.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,10 +28,83 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Small Business Innovation Research"
+              "title": "Smackspace"
+            }
+          },
+          {
+            "id": "1f6ca462a961bc31",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Docker.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Docker"
+            }
+          },
+          {
+            "id": "011040e27de57fce",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Smack/KG Curator.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "KG Curator"
+            }
+          },
+          {
+            "id": "06dbdb6b97886f1c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -231,35 +304,38 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "29cbe107af740143",
+  "active": "06dbdb6b97886f1c",
   "lastOpenFiles": [
-    "Machine Learning (Index).md",
-    "Small Business Innovation Research.md",
-    "Smack/Contracts/SAILS.md",
+    "Smack/KG Curator.md",
+    "conflict-files-obsidian-git.md",
+    "_attachments/Pasted image 20260825123732.png",
+    "Target Nomination List.md",
+    "Smack/KG Syncs/KG Sync August 24.md",
+    "Smack/Onboarding/Onboarding Session with RPC August 13.md",
+    "_attachments/Pasted image 20260824110516.png",
+    "Smack/KG Syncs/KG Sync August 17.md",
+    "Docker.md",
+    "Smack/Smackspace.md",
+    "Maritime Intelligence Operations Center.md",
+    "Military Operation.md",
+    "Military Exercise.md",
+    "Fire Support Task.md",
+    "Combat Assessment.md",
+    "Battle Damage Assessment.md",
     "Smack/Smack Onboarding.md",
+    "smackonb.md",
+    "Smack/Projects/Neo4j Migration.md",
+    "AIM-174B Gunslinger.md",
+    "Smack/Contracts/SAILS.md",
+    "_attachments/Pasted image 20260819115547.png",
+    "Harbor.md",
+    "Iron Bank.md",
+    "Small Business Innovation Research.md",
+    "Smack/Projects",
+    "Machine Learning (Index).md",
     "Defense Resources (Index).md",
     "Planning, Programming, Budgeting, and Execution.md",
-    "Visit, Board, Search, and Seizure.md",
-    "Smack/Onboarding/Onboarding Session with RPC August 13.md",
-    "Impact Level.md",
-    "Impact Level 7.md",
-    "Impact Level 6.md",
-    "Secret Internet Protocol Router Network.md",
-    "Information System Security Manager.md",
-    "Annual Contract Value.md",
-    "Link Monitoring and Management Tool.md",
-    "Track Confidence.md",
-    "Anti-Submarine Rocket.md",
-    "Naval Gunfire Support.md",
-    "Strike Warfare.md",
-    "Smack/Contracts/SOLIC.md",
-    "Smack/KG Syncs/KG Sync August 17.md",
-    "OpenShift.md",
-    "~ Ideas.md",
-    "Smack/All-Hands/All-Hands August 13, 14, 2026.md",
-    "Chief Digital and Artificial Intelligence Office.md",
     "Smack/Contracts",
-    "conflict-files-obsidian-git.md",
     "Smack/KG Syncs",
     "_attachments/Pasted image 20260813165528.png",
     "_attachments/Pasted image 20260813153414.png",
@@ -270,14 +346,10 @@
     "_attachments/Pasted image 20260805171922.png",
     "_attachments/Pasted image 20260810135837.png",
     "_attachments/Pasted image 20260810124025.png",
-    "_attachments/Pasted image 20260810124018.png",
-    "_attachments/Pasted image 20260810124009.png",
-    "_attachments/Pasted image 20260806133036.png",
     "Smack",
     "RC-135V",
     "explainers/Inbox Pattern/script.js",
     "explainers/Inbox Pattern/styles.css",
-    "explainers/Inbox Pattern/index.html",
-    "explainers/Inbox Pattern"
+    "explainers/Inbox Pattern/index.html"
   ]
 }
