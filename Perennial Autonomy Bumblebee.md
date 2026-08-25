@@ -13,3 +13,6 @@ In January 2026, [[Joint Interagency Task Force 401|JIATF 401]] awarded a $5.2m 
 
 ![[Pasted image 20260724111234.png]]
 
+
+![[Pasted image 20260823103810.png]]
+From August 2026d

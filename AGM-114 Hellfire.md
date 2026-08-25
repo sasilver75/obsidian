@@ -2,6 +2,7 @@
 aliases:
   - AGM-114
   - AGM-114 R9X
+  - AGM-114L Longbow Hellfire
 ---
 
 
@@ -21,7 +22,7 @@ Variants:
 - AGM-114B/C: Produced 1982-1992, for armored vehicles, ship-borne targets.
 - AGM-114F: Produced 1991-1994, for armored vehicles.
 - AGM-114K/K2/K2A Hellfire II: Produced 1993-2018, for all armored targets.
-- ==AGM-114L Hellfire Longbow==: Produced 1995-2005, 2016-Present, for all armored targets.
+- ==AGM-114L Longbow Hellfire==: Produced 1995-2005, 2016-Present, for all armored targets.
 - AGM-114 Hellfire II (Blast Frag): Produced 1998–2010, for bunkers, light vehicles, urban soft targets.
 - AGM-114N Hellfire (MAC): Produced 2003-2018, for buildings, soft-skinned targets, ship-borne targets.
 - AGM-114P/P+ Hellfire II (for UAS): Produced 2003-2012, for all targets.
