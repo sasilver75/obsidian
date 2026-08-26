@@ -78,33 +78,9 @@
               "icon": "lucide-file",
               "title": "KG Curator"
             }
-          },
-          {
-            "id": "06dbdb6b97886f1c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -304,8 +280,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "06dbdb6b97886f1c",
+  "active": "011040e27de57fce",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
     "_attachments/Pasted image 20260823172435.png",
     "_attachments/Pasted image 20260823171916.png",
     "_attachments/Pasted image 20260823171858.png",
@@ -322,7 +299,6 @@
     "Ancillary Surface Craft.md",
     "AIM-424 Long Range Air-to-Air Missile.md",
     "Smack/KG Curator.md",
-    "conflict-files-obsidian-git.md",
     "_attachments/Pasted image 20260825123732.png",
     "Target Nomination List.md",
     "Smack/KG Syncs/KG Sync August 24.md",
@@ -341,7 +317,6 @@
     "smackonb.md",
     "Smack/Projects/Neo4j Migration.md",
     "AIM-174B Gunslinger.md",
-    "_attachments/Pasted image 20260819115547.png",
     "Smack/Projects",
     "Smack/Contracts",
     "Smack/KG Syncs",
