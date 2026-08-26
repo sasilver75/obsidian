@@ -8,60 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "29cbe107af740143",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Smack/Smackspace.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Smackspace"
-            }
-          },
-          {
-            "id": "1f6ca462a961bc31",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Docker.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Docker"
-            }
-          },
-          {
             "id": "011040e27de57fce",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Smack/KG Curator.md",
+                "file": "Smack/Smack Onboarding.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,11 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "KG Curator"
+              "title": "Smack Onboarding"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -282,6 +233,12 @@
   },
   "active": "011040e27de57fce",
   "lastOpenFiles": [
+    "Smack/WISR C2E Rewrite.md",
+    "_attachments/Pasted image 20260826141638.png",
+    "Smack/Smackspace.md",
+    "Docker.md",
+    "_attachments/Pasted image 20260826124227.png",
+    "Smack/KG Curator.md",
     "conflict-files-obsidian-git.md",
     "_attachments/Pasted image 20260823172435.png",
     "_attachments/Pasted image 20260823171916.png",
@@ -298,15 +255,10 @@
     "Brevity Code.md",
     "Ancillary Surface Craft.md",
     "AIM-424 Long Range Air-to-Air Missile.md",
-    "Smack/KG Curator.md",
-    "_attachments/Pasted image 20260825123732.png",
     "Target Nomination List.md",
     "Smack/KG Syncs/KG Sync August 24.md",
     "Smack/Onboarding/Onboarding Session with RPC August 13.md",
-    "_attachments/Pasted image 20260824110516.png",
     "Smack/KG Syncs/KG Sync August 17.md",
-    "Docker.md",
-    "Smack/Smackspace.md",
     "Maritime Intelligence Operations Center.md",
     "Military Operation.md",
     "Military Exercise.md",
@@ -316,7 +268,6 @@
     "Smack/Smack Onboarding.md",
     "smackonb.md",
     "Smack/Projects/Neo4j Migration.md",
-    "AIM-174B Gunslinger.md",
     "Smack/Projects",
     "Smack/Contracts",
     "Smack/KG Syncs",

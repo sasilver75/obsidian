@@ -1,4 +1,7 @@
 
+==TODO: I want to better understand how/why/when NodEInit is triggered, as well as better understand how to use the actual UI/product surface.==
+
+
 The system follows a three-tier architecture:
 1. Frontend Layer (`ui/`): React/SolidJS UI for user interaction.
 2. API Layer (`api/`): FastAPI REST endpoints with CORS middleware. 
