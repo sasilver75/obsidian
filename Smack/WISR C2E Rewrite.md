@@ -190,3 +190,162 @@ Activity Tasks and Workflow Tasks, and how they alternate/relate:
    → responds: “Schedule ETL activity”
 
 7. Temporal sends ETL activity task
+
+
+____________
+
+August 27
+
+C2E means ConOp to Execution, part of the Unified product which takes an approved operational concept and asks a model to propose when and how selected targets should be serviced.
+- Maestro is the primary backend service powering Unified; validates API requests, reads/writes product data in Postgres, starts Temporal workflows ,receives Wizard results, and converts those results into Strato rows.
+	- Postgres stores the product's view of the operation: pending and processing solve rows, completed result JSON, copied workflow status, and the Track/Engage board information.
+- Temporal is the durable workflow engine. It records that a Wizard workflow exits, schedules its five activities in order, records retries and timeotus, preserves execution history across worker restarts. Temporal remembers/manages the workflow/pipeline, and Wizard currently performs/drives completion of all five of its activities.
+- Wizard (WISR) is the Python worker that performs the C2E model pipeline, receiving work from Temporal and running:
+	- Threat-Weighted Mapping (TWM) constructions
+	- ETL/table extraction
+	- Precomputation
+	- Optimization/Solving
+		- Depending on configuration, this runs locally or through a remote HTTP service. Gurobi is the underlying optimization tool used.
+	- Result submission to Maestro
+- Iris is Smack's provider-agnostic object-storage API used here to store large intermediate Wizard documents. Wizard writes its TWM, extracted table, and precomputation data to Iris. Temporal then carries small references to those objects instead of placing the full documents in workflow history.
+- Strato is Unified's execution-planning screen, at `/unified/execute`. It calls Maestro APIs to read/modify data powering the frontend components of the board. Postgres `atlas_exstage_*` tables store its state. When Wizard finishes a solve, Maestro converts parts of the result into Strato Engage rows. An operator can also move a target between Track and Engage, change assignments, and edit certain planning values.
+
+An approved ConOp is the plan package that already contains targets, boundaries, available forces, and other planning constraints.
+
+C2E then adds a particular *operation*, which includes a start time and the operator's selected targets, as well as (optionally) platforms and effectors mandated to service those targets. The model then proposes timings for specific, target-paired ISR and strike platforms (along with the effectors used for the strike platforms). This output is collectively referred to as a "proposed tasking."
+- ==Note:== Currently, the user-selected platforms/effectors for a given target are currently ignored by the optimizer. The dropdown options are supposed to be populated by a `getBlueAttackOptions` request (which is getting sent), but I don't often see the response containing attack options (Ref: alkemaf234), which means that the dropdowns to select an effector or platform are usually empty anyways. Aegis is intended to satisfy that `getBlueAttackOptions` request, joining currently represented BLUE platforms in the workflow-group graph, WpnNet compatibility rows about which platform types can employ munitions against which target types, and approved target instances and their platform types. 
+
+Before the model pipeline (in Temporal) begins, Unified already has an approved ConOp. That record identifies the planning workflow whose targets/constraints are allowed to move into C2E. The operator also has created named operation, which is the Unified product's record of this particular attempt to produce a plan.
+- Creating the operation writes a pending `atlas_wizard_solve`  row in Postgres, but does not start any sort of solve or model run.
+- Clicking the "Generate" button is what actually kicks off work. This means that a "pending" solve/operation row is not evidence that the model ran.
+
+Let's say that the operator asked the C2E product to plan a single strike, selecting only target `T-055_105_CHN`, and manually assigning one F-35 and an AGM-158 as its effector for that target, asking C2E to produce a feasible plan/tasking.
+- Note that the result may change the exact aircraft or weapon variant (because the solve doesn't use this user-specified platform/effector information)
+
+A solved plan can contain (at least):
+- Target time
+- Weapon
+- Attack aircraft
+- ISR platform
+- ISR window
+- Latest track quality (TQ)
+
+When the operator clicks Generate, `startWizardOrchestrationWorkflow` is called, passing (non-exhaustively):
+- IDs: `workflowId, workflowGroupId, operationId`
+- Target Array: ID (target's identifier, such as "T-055_105_CHN"), rank (the target's position in the approved prioritized-target list), formation (the parent unit or platform associated with the target, like "T-055"), supported-FST record IDs (one-based references to the approved FST that the target supports; \[1,3] indicates that the target contributes to FST-1 and FST-3), weapon + platform selections
+- 7 required geometry strings:
+	- Waypoints (WP)
+	- Air, Ground, Maritime Control Measures (ACMs, GCMs, MCMs)
+	- Target Areas of Interest (TAIs)
+	- Unit Boundaries (UBs), one of which is selected as the user and doubly sent as the Principal Boundary (PB)
+- Additional, optional geometry: Restricted Areas (RAs) and Air to Air Refueling Points (AARs)
+
+> [!NOTE]- Q: Why do we send a geometry snapshot?
+> The Wizard workflows run asynchronously... by the time a later activity executes or retries, the approved geometry may have changed. The workflow therefore needs either an immutable copy of teh geometry used for this run, or references to immutable, versioned geometry stored on the server.
+
+> [!NOTE]- Q: Why do we send geometries encoded as Strings?
+> There's not really a demonstrated need for that, it's just how it's implemented. Unified uses JSON.stringify(...), and Wziard eventually calls json.loads(...) to recover the GeoJSON object. 
+> Instead of:
+> ```
+> {
+> "waypoints": "{\"type\":\"FeatureCollection\",\"features\":[...]}"
+> }
+> ```
+> 
+> It could have been sent as
+> ```
+> {
+>  "waypoints": {
+ >   "type": "FeatureCollection",
+  >  "features": []
+ > 	}
+> }
+> ```
+> GraphQL doesn't require string representation, it could use a JSON scalar, typed GeoJSON inputs, or (probably preferably) immutable artifact references with digests.
+
+So the input to our `startWizardOrchestrationWorkflow` looks *something* (I think) like:
+```json
+{
+  workflowId: "11111111-1111-4111-8111-111111111111",
+  workflowGroupId: "22222222-2222-4222-8222-222222222222",
+  operationId: "33333333-3333-4333-8333-333333333333",
+  operationName: "Operation 20260601T191825",
+  operationStartDate: "2026-06-01T19:18:25.869Z",
+  approvedTargets: [{
+    targetId: "T-055_105_CHN", rank: 3,
+    formation: "T-055", supportedFsts: [1,2,3],
+    selectedMunition: "AGM-158",
+    selectedPlatform: "F-35-01"
+  }],
+  waypoints: "{\"type\":\"FeatureCollection\",...}",
+  acms: "{...}", gcms: "{...}", mcms: "{...}",
+  tais: "{...}", unitBoundaries: "{...}",
+  principalBoundary: "{...}"
+}
+```
+Note that the geometry collections aren't database references, they're the browser's snapshot of waypoints, control measures, target areas, and boundaries at the moment Generate is clicked.
+
+Maestro accepts this request, and tells the browser that the request succeeded, and only afterwards asks Temporal to create the durable workflow.
+- Maestro validates that the group exists, marks the solve as "processing" in the database.  It returns a positive response to the browser, and *then* asks Temporal to start via an in-memory follow-up (==Danger==).
+
+Now that the Temporal workflow is running, Wizard progressively turns this product data into an optimization result.
+To do this, it executes five Wizard activities in a fixed order, with each activity transforming input data and producing data for the next one.
+The stages are as follows (and their fixed "progress". The percentages shown in Unified are emitted when the activities start):
+1. TWM (Threat-Weighted Map Generation), 5%
+	- Combine geometry and workflow-group data into the model's initial structure.
+	- Result ➡️ Iris
+2. ETL (Extract, Transform, Load), 25%
+	- Create 22 serialized tables for targets, assets, control measures, and counts.
+	- Result ➡️ Iris
+3. Pre-Compute (Compute Model Inputs), 45%
+	- Prepare weapon effectiveness, sensor efficacy, targetability costs, and observations.
+	- Result ➡️ Iris
+4. Solve (Running the optimization/solve), 70%
+	- Load extracted, precomputed data and choose timing, weapons, attack assets, and ISR supports.
+	- Result ➡️ Memory
+5. Store Solve (Storing Model Output), 95%
+	- Serialize the result and send it back to Maestro for product-state writes.
+	- Result ➡️ Maestro
+
+The first activity builds a ==threat-weighted map (TWM)==, combining geometry strings set by Unified with workflow-group force data, producing the initial model-oriented structure used by later stages.
+
+The second activity is the ==extract, transform, and load (ETL)== or data-shaping stage. It turns the threat-weighted-map structure into 22 serialized tables covering targets, assets, units, control measures, and row counts.
+
+The third activity ==pre-computes== model parameters that are expensive or awkward to derive inside the optimizer. Its output includes weapon effectiveness, sensor efficacy, targetability costs, and sensor observations. The solver later reads the extraction and precompute artifacts together.
+
+
+
+
+
+
+
+---
+
+P2C GEOMETRIES
+- ==Unit Boundaries (UBs)==, Polygons: Operational-area boundaries. You select one boundary as the principal/reference boundary, which scopes forces and planning geometry.
+- ==Waypoints (WPs)==, Points: Air movement and launch locations. They become nodes in the air threat map and possible air strike launch sites.
+- ==Air Control Measures (ACMs)==, Polygons: Air operating/orbit areas. Current code primarily uses each feature's centroid as an air routing and ISR sensor location.
+- ==Maritime Control Measures (MCMs)==, Points: Maritime movement, ISR, and strike locations. Maritime platforms can act from these sites.
+- ==Ground Control Measures (GCMs)==, Points: Ground movement, ISR, and strike locations. Ground platforms can act from these sites.
+- ==Target Acquisition Indicators (TAIs)==, Polygons: Areas associated with RED targets. Targets are assigned to TAIs, and their centroids are used for strike range and sensor-effectiveness calculations.
+- ==Restricted Airspace (RAS)==, Polygons:  Optional exclusion areas. Air graph edges intersecting these polygons are removed.
+- ==Air-to-Air Refueling Points (AARs)==, Points: Optional air-network nodes. Today they're added to the air TWM graph, alongside WPs and ACMs. Their existence doesn't imply that we have a detailed fuel/refueling model, we don't.
+
+Maestro converts the uploaded source
+
+
+
+--------------
+
+References
+
+
+Ref alkemaf234: 
+> There is also a likely defect in that dropdown path. At the configured Aegis commit, the helper returns raw WpnNet rows containing keys such as `Threat` and `Munition` ([athena_client.py (line 125)](/Users/sam/code/smackspace/services/aegis/app/tools/athena_client.py:125)), but the consuming activity reads lowercase `target`, `munition`, and `attacker` from those rows ([blue_attack_options_activity.py (line 26)](/Users/sam/code/smackspace/services/aegis/app/temporal/activities/blue_attack_options_activity.py:26)). Those fields are absent, so the activity should discard every row and return an empty option list. That is a static-code conclusion; we do not have a production response capture to confirm whether another worker version is actually running.
+
+
+
+
+
+
+

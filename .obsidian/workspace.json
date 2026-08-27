@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Smack/Smack Onboarding.md",
+                "file": "Smack/WISR C2E Rewrite.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Smack Onboarding"
+              "title": "WISR C2E Rewrite"
             }
           }
         ]
@@ -233,12 +233,13 @@
   },
   "active": "011040e27de57fce",
   "lastOpenFiles": [
+    "Smack/Smack Onboarding.md",
+    "Smack/KG Curator.md",
+    "Smack/Smackspace.md",
     "Smack/WISR C2E Rewrite.md",
     "_attachments/Pasted image 20260826141638.png",
-    "Smack/Smackspace.md",
     "Docker.md",
     "_attachments/Pasted image 20260826124227.png",
-    "Smack/KG Curator.md",
     "conflict-files-obsidian-git.md",
     "_attachments/Pasted image 20260823172435.png",
     "_attachments/Pasted image 20260823171916.png",
@@ -265,7 +266,6 @@
     "Fire Support Task.md",
     "Combat Assessment.md",
     "Battle Damage Assessment.md",
-    "Smack/Smack Onboarding.md",
     "smackonb.md",
     "Smack/Projects/Neo4j Migration.md",
     "Smack/Projects",
