@@ -1175,7 +1175,7 @@ Ref alkemaf234:
 
 _______________________
 
-Notes from John's Plane Wiki posts
+# Plane Wiki Notes
 
 The three services relevant to this vertical: `sisrs`, `aegis`, `wizard`. 
 This page is going to document the `wizard` service, which is a pipeline that executes hen a planning request is made today.
@@ -1209,5 +1209,393 @@ WORKER_REGISTRY = {
 }
 ```
 This `max_concurrent_activities: 1` serializes execution. One worker process runs one pipeline instance at a time.
+- ==Note==: There isn't really a documented rationale for choosing 1, AFAICT. Likely it's a resource-safety limit for memory and CPU-intensive model preparation and optimization.
+	- If request A is solving (Stage 4), request B's TWM activity (Stage 1) cannot begin on that worker, even if it's a very lightweight request.
+	- The Helm defaults configure on Wizard replica with autoscaling disabled; This gives the deployment only one activity slot total, so a long-running solve can block TWM/ETL/Precompute/Solve/Storage for every other request.
+
+
+Artifact Handoff between stages:
+- TWM, ETL, and Precompute each write their output to Iris object storage and pass a small reference struct, `ArtifactRef`, containing `{uri, bucket, key, content_type, size-bytes, sha256, created_at_utc}`.
+- The Solve stage returns its data as a plain Temporal activity result dict ,and is passed directly into the Store-Solve's activity input, without offloading to an object storage artifact.
+- ==Note==: Store-Solve receives both the result and the entire `WizardWorkflowParams` object. Those parameters include the large geometry strings. Wizard also copies that parameter object into every preceding activity nput. Consequently, the workflow is offloading the intermediate outputs but still repeatedly storing potentially large original inputs in Temporal history.
+
+> [!NOTE]- Q: When should I offload returned data from an activity to object storage, vs actually returning the main data itself?
+> An activity return doesn't get automatically passed from one worker invocation to the next; Temporal serializs and durably records it in the workflow history; if the workflow then supplies that value to another activity, Temporal serializes it again as the next activity's input. This makes large inline handoffs both a size-limit risk and a history-growth cost.
+> The design principle is: **Temporal should carry control data, while object storage should carry bulk data.**
+> In In Wizard, this is only partially applied; TWM/ETL/Precompute return references because their outputs contain large tables, maps, and matrices. The solve result is returned inline because it was apparently assumed to be smaller.
+
+> [!NOTE]- Q: How does activity data handoff actually work?
+>  If Activity A returns `result`, and the workflow passes it to Activity B:
+>  - Activity A's worker serializes `result` and sends those bytes to the Temporal SErvice
+>  - Temporal stores them in the workflow history's `ActivityTaskCompleted` event.
+>  - The workflow worker loads that history and decodes `result`.
+>  - The workflow schedules Activity B with `result` in B's input.
+>  - Temporal serializes and stores those byte again in the `ActivityTaskScheduled` event.
+>  - The worker running B retrieves and decodes that input.
+>So there's no direct memory transfer from Activity A to Activity B.
+>```
+>Activity A worker
+ >   ↓ result bytes
+>Temporal history: ActivityTaskCompleted
+ >   ↓ workflow replay
+>Temporal history: ActivityTaskScheduled(input=result)
+ >   ↓
+> Activity B worker
+>```
+>So passing a 300KB result from A to B generally adds 600KB to workflow history, plus event and wrapper overhead.
+>Regarding Temporal's limits, the current standard limits are:
+>- 2 MiB for an individual payload/event blob
+>- 4 MiB for a gRPC message or Event History transaction
+>- 50 MiB or 51,2000 events for one Workflow Execution.
+>So TLDR:
+>Use a normal activity return when the value is: 
+>- Small and has a known upper bound
+>- Needed for workflow decisions
+>- An identifier, status, count, timestamp, compact summary, or short collection.
+>- Useful when inspecting Temporal history.
+>- Not expensive to serialize repeatedly.
+>
+>==Note:== The current solve result being passed inline is probably only acceptable if Wizard establishes and enforces a bounded serialized size, and currently it does not. Feels like we should probably just use the same artifact pattern for the solve output, along with (as mentioned earlier in this document) artifact the large initial geometry/input bundle once and pass its reference to all five activities, which makes Temporal history consistently contain identifiers, references, statuses, and summaries, not repeated model datasets.
+
+```
+Wizard activity worker
+    │ reports Solve result
+    ▼
+Temporal Server
+    │ stores ActivityTaskCompleted event
+    │ creates a workflow task
+    ▼
+Wizard workflow worker
+    │ replays WizardOrchestrationWorkflow
+    │ reaches the completed Solve await
+    │ schedules Store-Solve
+    ▼
+Temporal Server
+    │ stores ActivityTaskScheduled event
+    │ creates an activity task
+    ▼
+Wizard activity worker
+    executes Store-Solve
+```
+Note that "workflow worker" and "activity worker" are conceptual roles; in this deployment, they're both handled by the same Wizard SDK `Worker` instance and usually the same service process. The SDK machinery that polls/replays is internal to the Temporal Python SDK, but the worker itself is operationally ours, running in the Wizard container, consuming Wizard resources, and stopping processing if the Wizard service is unavailable.
+
+Every stage that needs KG data (TWM, ETL, Precompute) opens its own `AthenaKnowledgeGraphClient` (Wizard's `app/tools/graph_lib.py`), which is a gRPC client to the separate `athena` Go service; there's no direct Cypher/Neo4j driver usage in this repo.
+- ==Note==: The client's constructor accepts `uri`, `user`, and `password`, but only uses `workflow_group_id`; the connection is `grpc.insecure_channel(settings.ATHENA_URL)`.
+- Each stage opens its own client independently rather than sharing one.
+- ==Note:== TWM, ETL, and Precompute each call `get_wpnNet()` separately (for the weapon-engagement reasons), so the same weapon-network data is fetched from Athena three times per pipeline run.
+# (1) [Threat Weighted Map (TWM) Activity](https://work.smackgov.com/product/projects/5582eab5-bd31-46cb-8f2b-77ccd8333b8b/pages/ec47cc0d-5b00-4d0a-823c-b1dbb9e000d8/)
+- The first stage of the `wizard` pipeline, builds, for every combination of movement mode and BLUE platform type, a threat-weighted adjacency matrix over the relevant control-measure nodes (waypoints, ACMs, GCMs, MCMs), scoring how dangerous each edge in the routing graph is, based on RED formation's proximity and weapon range.
+- What it does:
+	1. Parses GeoJSON control measures from the request (waypoints, ACM/GCM/MCM, TAI, unit boundaries, AAR, RAS, plus the principal boundary polygon).
+	2. Opens an AthenaKnowledgeGraphClient and pulls:
+		1. `get_wpnNet`
+		2. `get_red_instances`
+		3. `get_blue-instances_in_range`
+	3. For every (mode, blue_platform_type) combination, build a `ThreatWEightedMap`
+		- Note: "Mode" means the operating domain of a BLUE platform (1:Air, 2:Ground, 3:Maritime). It selects which control-measure network the platform is assumed to move through.
+			- Note that Wizard also defines (4:Subsurface, 5:Space), but the TWM implementation ignores them.
+		- Node set by mode: Air uses Waypoints (WP) + ACM (+AAR in theory) (Strike from WP, ISR from ACM), Ground uses GCM, Maritime uses MCM
+		- Edge pruning: An edge is dropped if it crosses a RAS polygon, or if it's a long haul (>300km direct distance) without a valid intermediate node within 50km perpendicular of the direct line.
+		- Edge Weight: Sums, over every RED instance with weapon range of the edge, `1.0 - threat_modifier * (dist_km/max_range)`, clamped to `[0,1]`.
+		- Stated again, differently:
+			- It builds a separate, domain-specific complete graph for (effectively) each BLUE platform type (e.g. F-35A, MQ-9).
+			- It does this by first grouping the BLUE platform types in the scenario by mode (Air, Ground, Maritime), and then builds a separate TWM for each *platform type.*
+			- Say we have :
+			-  ```
+			  BLUE assets
+
+			F-35A_01    platform_type=F-35A    mode=AIR
+			F-35A_02    platform_type=F-35A    mode=AIR
+			MQ-9_01     platform_type=MQ-9     mode=AIR
+			DDG-51_01   platform_type=DDG-51   mode=MARITIME
+			  ```
+			- Wizard doesn't build four TWMs for this, it deduplicates this into: `(AIR, F-35A), (AIR, MQ-9), (MARITIME, DDG-51)`. Why aren't F-35 and MQ-9 combined? They actually start with the same air graph, but assume there's a RED SAM nearby; Athena weaponNet might tell Wizard that its max range against F-35A is 40km, while against MQ-9 it's 100km. So for a given edge, the RED SAM might contribute 0 threat against the F-35, and .4 threat against the MQ-9. So you have the same physical graph for the F-35 and MQ-9, but a different threat-cost matrix. Different F-35s might have different starting locations, weapons, assignments, etc, but the question "How dangerous is it for an F-35 to traverse WP-A -> WP-B" only needs to be answered once, here.
+				- ==Note:== We're making some simplifying assumptions here, largely around the computing of the TWM only being dependent on the BLUE-effecting RED platform's weapon characteristics... and not on (e.g.) the specific BLUE instance's loadout (do you have flares? chaff? external weapons increasing RCS?).
+- Output is per-(mode, platform_type) matrices; each populated cell is (score, contributions), plus a summary (platforms, total_edges, red_instances_count, etc.)
+- Writes the result to the shared blob store.
+	- ==Note==: `normalize_twm_for_etl` seems to be an identity no-op right now?
+- I/O:
+	- Input: `TWPParams`: GEoJSON control measures, boundary polygon, workflow group id
+	- Output: 
+```json
+{
+	"platforms": {
+		"nodes": [...],
+		"node_coords": {...},
+		"matrix": [[null, [0.42, {"RED-UNIT-1": 0.42}], ...], ...]
+	},
+	"summary": {
+		"total_platforms": 6,
+		"total_edges": 340,
+		"red_instances_count": 12
+	}
+}
+```
+Later:
+- ETL reads the TWM artifact back, to validate that its shape exists. The payload's content is not otherwise read by ETL.
+	- Note: ==That's weird.==
+- Precompute consumes TWM's content via `extract_targetable_costs_from_twms(all_twms)`, which flattens the per-platform threat matrices into a flat `{from_node}-{to_node}->{platform_type: score}` dict feeding the the solver's targetable-cost terms.
+
+So what again exactly is a TWM?
+- It's useful to think of *one TWM* as approximately:  *"A lookup table saying how threatening each candidate movement segment is to a particular BLUE platform type.*
+Conceptually:
+```
+# One TWM
+ThreatWeightedMap {
+    platform_type: "F-35A"
+    mode: AIR
+
+    edges: {
+        WP-A ↔ WP-B:   0.00
+        WP-A ↔ ACM-C:  0.25
+        WP-B ↔ ACM-C:  0.10
+        ...
+    }
+}
+
+# And another TWM
+ThreatWeightedMap {
+    platform_type: "MQ-9"
+    mode: AIR
+
+    edges: {
+        WP-A ↔ WP-B:   0.40
+        WP-A ↔ ACM-C:  0.70
+        WP-B ↔ ACM-C:  0.55
+        ...
+    }
+}
+```
+==Except it's actually a little more detailed than the above!== 
+- The model needs to distinguish **fixed** threats from **targetable** threats. If a SAM-1 is itself something that BLUE can destroy, its contribution needs to be identifiable so that the solver can effectively reason that (WP-A -> WP-B) costs +0.40 threat when alive, but after SAM-1 is destroyed, that portion of the threat cost disappears.
+	- ==Fixed== doesn't actually mean stationary, it means a RED threat whose destruction is not something this optimization is allowed/able to model. This split is based on whether the RED threat represented in the TWM can also be treated as a target by the C2E solve.
+		- The split is based on whether the RED threat represented in the TWM can also be treated as a target by the C2E solve.
+			- Note "Can this RED thing threaten BLUE" and "Can BLUE destroy this RED thing in this solve" don't necessarily have the same answer. A RED entity can be threatening but not prosecutable.
+			- Fixed = "Assume this threat remains alive for the whole plan.", Targetable="The optimizer may destroy this threat, so stop charging its route-threat contribution after its destruction."
+	- ==Note:== There's sort of an implicit assumption here that we just never want to target anything outside of the set of targets from our C2E step... which... seems true at first-pass, but you can imagine that a commander would like to know if additionally targeting one additional 
+	- ==Note:== It seems like with our TWM we're also making the assumption that threat is just like related to closeness to a red platform (given its range), without regard for whether that target has sensors to target you, is that right? 
+- So the TWM isn't merely a static "heat map," it's threat information attached to candidate route segments. This is also why mode and platform_type do different jobs:
+	- mode: Which network should this thing move on? e.g. AIR -> WP/AAR/ACM
+	- platform_type: How threatening are RED weapons to this thing? F-35A gets one set of edge weights, while MQ-9 gets another set of edge weights.
+	- **Takeaway**: Mode determines the shape of the TWM graph, while platform type determines the threat values painted onto that graph.-
+
+Node types in the current TWM model:
+- GP (Generation point or home/base): Mobile assets start here; connects to only one entry node.
+- WP: Aircraft can move through it, hold there, and launch strikes.
+- ACM: Aircraft can move through it and hold there for ISR.
+- GCM: Ground assets move and act here.
+- MCM: Maritime assets move and act here.
+- TAI: Not a movement node; is it to be observed or struck at a standoff.
+- RAS: Not a node; used to remove prohibited air edges that pass through it.
+- AAR: Included in TWM generation, but currently removed before the solve, because refueling isn't modeled.
+
+Aside: What's up with these Generation Points?
+- It seems from the code that assets must start at their own base, and cannot visit another asset's GP. Aircraft must nominally return to their own base.
+- A GP is a location where Wizard considers a BLUE asset to start its plan and rest when it is not operating.
+- In practical terms, it is an abstraction for a home airbase, port, staging area, or the asset's current location.
+- In the Knowledge-graph-reading path, Athena contains to related pieces of data:
+	1. A named GP node with `type:gp` with coordinates.
+	2. A BLUE asset whose `generation_point` property names that node.
+```json
+A named GP node with coordinates
+{
+	"labels": ["ElementInstance", "Infrastructure"],
+	"name": "Andersen AFB",
+	"type": "gp",
+	"lat": 13.584,
+	"lon": 144.9245
+}
+
+# And then a BLUE asset whose generation point names that node
+{
+	"name": "F-35A_001_USA",
+	"lat": 14.1,
+	"lon": 145.2,
+	"generation_point": "Andersen AFB"
+}
+```
+- Alternatively, a BLUE asset doesn't have to reference a named GP, and can instead contain "generation_point":"self", or if the generation_point property is missing, it's treated the same: A generation point is created  at the lat/lon of the unit.
+```json
+{
+  "name": "DDG-51_001_USA",
+  "lat": 25.3,
+  "lon": 129.8,
+  "generation_point": "self"
+}
+```
+==Note:== This seems to me to be a brittle connection; we know for instance that Nick has been renaming some "names" because they weren't display-ready. If name is basically being used as a foreign key for such things, and we changed the name of Andersen AFB, that would probably break something here. Instead, should it be something like a Neo4j relationship such as "BASED_AT"?
+- ==Note==: Currently, if an asset names a GP that cannot be found, Wizard silently uses the asset's current coordinates while retaining the missing GP's name. This can conceal bad scenario data.
+
+How is the candidate edge set built?
+- Initially, ETL creates a fully connected grahp; every location is connected to every other location, plus self-edges for holding station. 
+- The solve them cleans that graph, removing node classes that aren't traversable, including TAIs.
+- Dividing nodes into air/ground/maritime domains
+- Removing cross-domain edges
+- Connecting each mobile base to one nearest own-domain entry node:
+	- Air GP -> Nearest WP
+	- Ground GP -> Nearest GCM
+	- Maritime GP -> Nearest MCM
+- Remove air edges that cross restricted airspace.
+- Prune the graph to edges involved in candidate strike and ISR routes.
+
+==Note==: An important TWM/movement mismatch:
+- TWM doesn't authoritatively define the movement graph.
+- Wizard builds the movement network and the threat map separately, and the two stages don't agree on which edges exist.
+	- During the solve, a movement edge without a TWM record is treated as having zero threat, not as forbidden or unknown.
+	- This creates routes that are legal to the solver, but were never evaluated for threats.
+From beginning to end:
+1. The request supplies geographic points and polygons (WP-A, WP-B, WP-C, RA polygons, BLUE aircraft and their GPs from Athena, RED SAM systems from Athena)
+2. TWM independently decides which edges to evaluate: For an F-35, TWM creates an air-node set containing waypoints, ACMs, and AAR. It examines possible edges from pairs of these waypoints, and drops those that are longer than 300km that have a valid intermediate node within 50km perpendicular of the direct line, with the assumption that the aircraft should use the two shorter legs.
+So if we have:
+```
+WP-A ─────── 200 km ─────── WP-B ─────── 200 km ─────── WP-C
+
+We examine possible pairs:
+WP-A ↔ WP-B
+WP-B ↔ WP-C
+WP-A ↔ WP-C
+
+TWM then produces something like:
+WP-A ↔ WP-B: threat score 0.8
+WP-B ↔ WP-C: threat score 0.3
+WP-A ↔ WP-C: no TWM entry, since the edge is >300km and WP-B is close to the stright line between them.
+```
+this "No TWM entry" doesn't mean that the threat score is zero, it means that TWM deliberately didn't evaluate that edge.
+TWM also drops air edges if it crosses restricted airspace.
+
+Later, ETL separately reconstructs the movement graph
+- ETL doesn't start with TWM's edge list; it independently creates a fully-connected graph:
+```
+WP-A ↔ WP-B
+WP-B ↔ WP-C
+WP-A ↔ WP-C
+```
+- Every location is initially connected to every other location, where by "location," we're referring to all of (WP, ACM, GCM, MCM, TAI, AAR, UB, RAS, GP). The principal boundary itself is not added as a location, nor are RED unit positions. A BLUE's current position becomes a location only if Wizard uses it as a "self" GP (see further above in the document). 
+- ETL then creates an edge for every unordered pair of rows in the table, so the raw graph can contain:
+```
+WP-1  ↔ WP-2
+WP-1  ↔ ACM-1
+WP-1  ↔ GCM-1
+WP-1  ↔ MCM-1
+WP-1  ↔ TAI-1
+WP-1  ↔ RAS-1 centroid
+ACM-1 ↔ GCM-1
+GCM-1 ↔ MCM-1
+GP-1  ↔ every other location
+```
+- Before the graph rereaches the solver, it is substantially rewritten:
+	- GCM/AAR/TAI/UB/RAS locations are removed
+	- WP/ACM/MCM remain
+	- Original GP edges are removed
+	- Colocated GPs are consolidated
+	- Each air GP gets one edge to its nearest WP
+	- Each maritime GP gets one edge to its nearest MCM
+- The resulting production movement nodes are therefore approximately:
+```
+Air:       GP → WP and movement among WP/ACM nodes
+Maritime:  GP → MCM and movement among MCM nodes
+```
+((And note that Eli has some other version of Wizard that allows for ground movement for a NEC demo, but that isn't in Main currently.))
+==Note:== that production revision retains original edges between any surviving interior nodes... So a cross-domain edge such as a `WP->MCM` and an `ACM->MCM` can also survive. 
+- TWM never creates these cross-domain edges, so they don't have a corresponding TWM threat evaluation.
+
+> ETL initially creates a direct edge between every pair of retained control-measure centroids and BLUE generation points, inclduing WP, ACM, GCM, WCM, TAI, AAR, UB, RAS, GP rows. Solve preprocessing later removes non-operational node classes and rebuilds GP connections.
+
+Okay, back to the list...
+
+3. ETL then separately constructs the movement graph
+- ETL doesn't start with TWM's edge list; it independently creates a fully-connected graph:
+```
+WP-A ↔ WP-B
+WP-B ↔ WP-C
+WP-A ↔ WP-C
+```
+- Every location is initially connected directly to every other location.
+- Later processing removes out-of-domain nodes and reduces the graph, but it doesn't use teh TWM matrix as the authoritative list of allowd edge.s
+- Consequently, the previous 400-km-direct-edge can remain available to the solver ,even though the TWM removed it.
+
+
+4. GP edges are added only to the movement graph.
+- Suppose the F-35 starts at `gp_air_1`. Wizard adds: `gp_air_1 <-> WP-A`, but GPs do not exist in the TWM node set, therefore TWM cannot calculate a score for this edge.
+- So now we have something like this:
+
+| Edge              | Movement graph | TWM                  |
+| ----------------- | -------------- | -------------------- |
+| `gp_air_1 ↔ WP-A` | Yes            | Never evaluated      |
+| `WP-A ↔ WP-B`     | Yes            | Score `0.8`          |
+| `WP-B ↔ WP-C`     | Yes            | Score `0.3`          |
+| `WP-A ↔ WP-C`     | Yes            | Deliberately omitted |
+
+5. The solver loads the movement and threat data:
+- It treats the movement garph as the authority for where the aircraft can travel.
+- Separately, it converts TWM contributions itno a threat-cost table keyed by `movement edge + BLUE platform type`, e.g.:
+```
+WP-A-WP-B + F-35A → 0.8
+WP-B-WP-C + F-35A → 0.3
+
+But there is no threat row for:
+gp_air_1-WP-A + F-35A            # GPs don't exist in the TWM node set, so TWM didnt' calculate a score for this edge
+WP-A-WP-C + F-35A                # The TWM activity removed this, because >300km and there were nodes within ~50km perpendicular of the edge
+```
+
+6. Missing threat rows become zero cost
+==Note:== This is clearly wrong 😄
+- When Wizard joins threat costs onto the aircraft's possible movements, it uses a left join and fills missing fixed costs with zero:
+	- `move_cost_fixed = move_cost_fixed.fillna(0)` ==Bad! Should there ever even be NAs?==
+
+7. The optimizer may then select the unevaluated route (which actually *will* in reality have non-zero threat)
+The optimizer compares:
+```
+WP-A → WP-B → WP-C
+Threat cost: 0.8 + 0.3 = 1.1
+
+# Against
+
+WP-A → WP-C
+Threat cost: 0.0
+```
+It might choose the direct route, because it appears threat-free, but TWM never concluded that the direct route was safe; it never calculate the route at all! 
+- This is a **core error:** "No threat data exists for this movement edge" is interpreted as "this movement edge has zero threat."
+
+Restricted airspace makes this even more serious:
+- TWM currently removes air edges that cross RAS, but the primary movement-graph builder doesn't apply the same restriction.
+So we can get:
+```
+Movement graph: allowed
+TWM: omitted because it crosses restricted airspace
+Solver threat cost: zero
+```
+
+So it seem like there ==should== be one authoritative edge list:
+1. Build every legal movement edge once.
+2. Apply domain and RAS restrictions there.
+3. Add GP entry edges there.
+4. Calculate TWM costs for every resulting edge and platform type.
+5. Reject the payload (failing loudly) if an allowed edge does not have an explicit threat result.
+
+The threat result *should* extinguish "This edge was explicitly evaluated and has a score of 0" with "Not evaluated"
+Today, those two cases collapse into the same zero-cost behavior.
+
+
+# (2) [ETL Activity](https://work.smackgov.com/product/projects/5582eab5-bd31-46cb-8f2b-77ccd8333b8b/pages/a0dfe4fb-b927-4d7b-8473-d4be13ccb65c/)'
+- The second stage of the `wizard` pipeline, which builds the full set of dataframes that the solver needs: laydown, movement graphs, engagement-capability joins, distance tables, and feasible-strike combinations, from the knowledge graph, or from static CSV overrides when supplied.
+
+What it does:
+- Reads back the TWM artifact to validate its shape exists ((and then... doesn't use it again))
+- Re-parses the same GeoJSON control measures and boundary used in TWM
+- Branches on whether static laydown override were supplied (params.laydown_blue/laydown_red, CSV strings)
+
+
+
+
+
+
+_______________
+
+
+
+
+
+
 
 
