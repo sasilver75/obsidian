@@ -2,7 +2,7 @@
 https://en.wikipedia.org/wiki/AIM-174B_Gunslinger
 
 A massive, very long range air-to-air missile from [[Raytheon]] used by the [[United States Navy|Navy]], a derivative of the [[SM-6]]
-- Essentially Rremoves the SM-6's Mark 72 first-stage rocket booster to allow for under-wing carriage.
+- Essentially removes the SM-6's Mark 72 first-stage rocket booster to allow for under-wing carriage.
 
 A derivative of the RIM-147B Standard Extended Range Active Missile (ERAM) surface-to-air missile.
 
