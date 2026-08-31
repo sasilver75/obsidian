@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Smack/WISR C2E Rewrite.md",
+                "file": "Smack/C2E Rewrite Project/Meetings/C2E Model Pipeline Kickoff Aug 31.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,10 +28,59 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "WISR C2E Rewrite"
+              "title": "C2E Model Pipeline Kickoff Aug 31"
+            }
+          },
+          {
+            "id": "bb52f811d3557978",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Smack/KG Syncs/KG Sync August 24.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "KG Sync August 24"
+            }
+          },
+          {
+            "id": "c3a7166681935a19",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/SystemDesign/SDIAH Framework.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "SDIAH Framework"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -86,8 +135,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -232,10 +280,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2103d0ee98c9b5f0",
+  "active": "c3a7166681935a19",
   "lastOpenFiles": [
+    "Smack/C2E Rewrite Project/Meetings/C2E Model Pipeline Kickoff Aug 31.md",
+    "Smack/C2E Rewrite Project/C2E Initial Examination Notes.md",
+    "_attachments/Pasted image 20260831120310.png",
+    "Smack/KG Syncs/KG Sync August 24.md",
+    "Smack/KG Syncs/KG Sync August 31.md",
+    "Smack/C2E Rewrite Project/Master Document.md",
+    "Smack/C2E Rewrite Project/Meetings",
+    "Smack/C2E Rewrite Project",
     "_attachments/Pasted image 20260827191827.png",
-    "Smack/WISR C2E Rewrite.md",
     "_attachments/Pasted image 20260827145958.png",
     "_attachments/Pasted image 20260827143118.png",
     "Smack/Smack Onboarding.md",
@@ -249,8 +304,6 @@
     "_attachments/Pasted image 20260823171916.png",
     "_attachments/Pasted image 20260823171858.png",
     "_attachments/Pasted image 20260823161411.png",
-    "_attachments/Pasted image 20260823103810.png",
-    "_attachments/Pasted image 20260822162123.png",
     "Tempest.md",
     "Spratly Islands.md",
     "Fox.md",
@@ -259,7 +312,6 @@
     "Ancillary Surface Craft.md",
     "AIM-424 Long Range Air-to-Air Missile.md",
     "Target Nomination List.md",
-    "Smack/KG Syncs/KG Sync August 24.md",
     "Smack/Onboarding/Onboarding Session with RPC August 13.md",
     "Smack/KG Syncs/KG Sync August 17.md",
     "Maritime Intelligence Operations Center.md",
@@ -267,9 +319,6 @@
     "Military Exercise.md",
     "Fire Support Task.md",
     "Combat Assessment.md",
-    "Battle Damage Assessment.md",
-    "smackonb.md",
-    "Smack/Projects/Neo4j Migration.md",
     "Smack/Projects",
     "Smack/Contracts",
     "Smack/KG Syncs",
@@ -277,8 +326,6 @@
     "Smack/All-Hands",
     "Smack",
     "RC-135V",
-    "explainers/Inbox Pattern/script.js",
-    "explainers/Inbox Pattern/styles.css",
-    "explainers/Inbox Pattern/index.html"
+    "explainers/Inbox Pattern/script.js"
   ]
 }

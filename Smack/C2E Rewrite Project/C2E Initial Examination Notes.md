@@ -1,5 +1,7 @@
 
 
+![[Pasted image 20260831120310.png]]
+
 We want to have a template process for how to add a new workflow.
 You could imagine that we would want to create this template process and dogfood it on the C2E rewrite.
 
@@ -7,8 +9,6 @@ You could imagine that we would want to create this template process and dogfood
 Threat weight map: Shows what "costs" are in the network. Expected target locatoi nerror, etc.
 Wizard ETL activity: principall the interaction with te ggraph, turns it into tables that Eli uses
 Wizard precompute activity: This is the interaction with smack-sensors. When we precompute. For ACMs and TAIs and for sensors/targets... that full permutation, join, what's the expectdd target locatino error. IF I put a sensor in the sy and have a targe here, what's the expected TLE? That serves...
-
-
 
 TWM: 
 - It's.. not rocket science. It's saying: Im going to interrogate the graph to understand, through the weaponnet, for Blue platforms, which Red platforms can shoot stuff at me... and look at the Athena laydown and say "This T55 is sitting here, and we've decomposed the world... into a game board of some sort. This is an opinionated stp. These dots are just... Eli has ways to auto-generate the dots (Dilaney-Prune thing). If you imagine this as a fully connected network, what I do is ... wat's the range from the edge to the platform, and assign a cost to the edge based on a very simple equation...which is 1-range to edge/max effetive range. If you're closer to the edge, you get ahigher number, always less than 1,"
@@ -1584,6 +1584,76 @@ What it does:
 - Reads back the TWM artifact to validate its shape exists ((and then... doesn't use it again))
 - Re-parses the same GeoJSON control measures and boundary used in TWM
 - Branches on whether static laydown override were supplied (params.laydown_blue/laydown_red, CSV strings)
+- Builds movement/edge graphs, waypoint/acm/tai location tables, engagement capability join tables, a full cross-join distance table, and a geometric feasibility join of loadouts x Pk x range x standoff constraints (an asset's effect must be able to reach a TAI from a waypoint within range, respecting inflight standoff)
+- Optionally subsamples assets/targets/edges for smoke testing
+- All 21 dataframes are serialized to JSON strings per-column
+
+The output shape has 22 required keys (`ETL_REQURIED_KEYS`):
+```
+df_gps, df_wps, df_acms, df_tais, df_locs, df_moves, df_edges, df_ec, df_ec_tt,
+df_loadouts, df_laydown_red, df_laydown_blue, df_pk, df_pstats_blue, df_pstats_red,
+df_estats_blue, df_isr_capes, df_tq2tle, df_dep_options, df_sat_obs, df_loc2loc,
+df_feasible_strikes, num_assets, num_targets, num_control_measures
+```
+Each df_* field is a JSON-serialized string, deserialized downstream in Precompute, Solve)
+- Precompute deserializes `df_laydown_blue`, `df_isr_capes`, `df_laydown_red`, and `df_pstats_blue` directly from this artifact.
+- Solve deserializes the full `ETLResult(**etl_payload)` dataclass.
+
+
+# (3) [Precompute](https://work.smackgov.com/product/projects/5582eab5-bd31-46cb-8f2b-77ccd8333b8b/pages/6a503c5a-8756-4685-8cb4-472165c3c574/)
+- Turns the ETL and TWM outputs into the three data structures that the solver's objective/constraints use:
+	- Sesnsor Efficacy (Target Location Error)
+	- Weapon Effectiveness (per-shot Pk)
+	- Targetable Costs (flattened threat scores)
+What it does:
+- Reads back both the TWM and ETL artifacts
+- Deserializes `dflaydown_blue`, `df_isr_capes`, `df_laydown_red`, `df_pstates_blue` from the ETL artifact's JSON strings.
+- Opens a fresh `AthenaKnowledgeGraphClient` to fetch `wpn_lookup`
+- Sensor efficacy:
+	- Launches two Temporal child workflows on task_queue="sensor-detection-queue", run concurrently via asyncio.gather: server_side_batch_workflow (for non-satellite sensor coverage) and server_side_batch_satellite_prepare_workflow (==satellite== pass geometry)
+	- Computes Target Location Error (TLE, in km) per (platform_type, sensor_modality, ACM, TAI, target_type) tuple, plus satellite-only rows (df_sats_obs) separately.
+- Weapon effectiveness:
+	- Converts a cumulative p_k into a per-shot individual kill probability p_i.
+- Targetable costs: 
+	- Flattens TWM's per-platform threat matrices into a flat dict keyed as `{from_node}-{to_node} --> {platform_type:score}`
+- `twm_data` in the output is the entire TWM payload reserialized alongside the newly computed sensor/weapon/cost tables.
+	- ==Note:== Seems weird to reserialize a previous step's payload like that, rather than passing a reference?
+
+Output shape (dictated by `PRE_COMPUTE_REQUIRED_KEYS`):
+```
+twm_data, sensor_efficacy, weapon_effectiveness, targetable_costs,
+num_platforms, num_edges, num_red_instances, satellite_observations
+```
+
+Downstream consumption:
+- The Solve activity deserializes the full `PrecomputeResult(**precompute_payload)` dataclass alongside ETLResult, feeding both into the Gurobi/GenEx pipeline.
+
+
+# (4) [Solve](https://work.smackgov.com/product/projects/5582eab5-bd31-46cb-8f2b-77ccd8333b8b/pages/8bebd459-7416-4cf1-8e9d-524fb758bac5/)
+- The fourth stage of the `wizard` pipeline. Builds a Gurboi MIP model from the ETL and Precompute outputs, applies an approved target list, and dispatches the solve (typically to a remote Gurobi service over HTTP)
+- Reads back all three artifacts (TWM, ETL, Precompute)
+- (The John Notes aren't useful for this, it's LM slop that assumes knowledge)
+
+
+# (5) [Store Solve](https://work.smackgov.com/product/projects/5582eab5-bd31-46cb-8f2b-77ccd8333b8b/pages/e30c0484-fec0-4d76-aa92-74d606005ea2/)
+- Fifth stage of the `wizard` pipeline; persists the solve rseult to Maestro via gRPC
+- `normalize_solve_result`  unwraps the raw solve activity's dict into the final exported shape, handling several possible result  shapes: an `exported_resul` key, or a model+params+policy+target_list bundle, or raw dfs+lp
+	- ==Note:== Whats up with the several possible result shapes?
+- `store_solve_payload` opens a gRPC channel to Maestro, and stores the solve; the gRPC call is how the solve result reaches Maestro's data store.
+
+Input/Output: The Solve stage's raw output dict, plus `conop_id`, `operation_id`, `temporal_workflow_id`
+Output: None
+
+__________
+
+
+
+
+
+
+
+
+
 
 
 

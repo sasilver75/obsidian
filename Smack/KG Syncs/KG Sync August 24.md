@@ -51,3 +51,7 @@ Sam
 
 SOCPAC CTO said that they won't advocate for a contract unless they have fingers on keyboard.
 
+
+Go into PLANE, look at Sep30, and backplan from there... For any work that you've already done, put it in there so that we can archive it.
+
+At some point you'll know enough to know what an assessment of feasability is for Sep30-, and JC is curious to know what that is, and that 
