@@ -1,6 +1,7 @@
 ---
 aliases:
   - HGV
+  - Hypersonic Boost-Glide
 ---
 
 

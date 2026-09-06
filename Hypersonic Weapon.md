@@ -17,6 +17,7 @@ There are two- main categories of hypersonic weapons:
 1. ==Boost-glide== hypersonic weapons, which glide and maneuver at hypersonic speeds following boosting by rocket propulsion. [[Ballistic Missile]]s fitted with [[Hypersonic Glide Vehicle]] warheads are an example of this.
 2. ==Airbreathing== hypersonic weapons, typically hypersonic [[Cruise Missile]]s maintaining high speeds by [[Scramjet]]s.
 
+These are often referred to as hypersonic glide vehicles and hypersonic cruise missiles.
 
 
 # Notable Hypersonic Weapons
