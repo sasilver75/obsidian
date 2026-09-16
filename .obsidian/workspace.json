@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "bbfa421802d6c43b",
+        "id": "e95b8e53d91ea4ef",
         "type": "tabs",
         "children": [
           {
-            "id": "2103d0ee98c9b5f0",
+            "id": "fcab2ec0f6d0ac66",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Smack/C2E Rewrite Project/Meetings/C2E Model Pipeline Kickoff Aug 31.md",
+                "file": "Fire Support Coordination Measure.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "C2E Model Pipeline Kickoff Aug 31"
+              "title": "Fire Support Coordination Measure"
             }
           },
           {
-            "id": "bb52f811d3557978",
+            "id": "6e26603c9dde3d04",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Smack/KG Syncs/KG Sync August 24.md",
+                "file": "conflict-files-obsidian-git.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,35 +52,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "KG Sync August 24"
-            }
-          },
-          {
-            "id": "c3a7166681935a19",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/SystemDesign/SDIAH Framework.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "SDIAH Framework"
+              "title": "conflict-files-obsidian-git"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -280,16 +256,27 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c3a7166681935a19",
+  "active": "6e26603c9dde3d04",
   "lastOpenFiles": [
-    "Smack/C2E Rewrite Project/Meetings/C2E Model Pipeline Kickoff Aug 31.md",
-    "Smack/C2E Rewrite Project/C2E Initial Examination Notes.md",
-    "_attachments/Pasted image 20260831120310.png",
+    "Fire Support Coordination Measure.md",
+    "conflict-files-obsidian-git.md",
+    "Articles/The Basics of AI-Powered Vector Search (Jan, 2024) {Cameron Wolfe Deep Learning Focus newsletter}.md",
+    "Smack/Projects/C2E Rewrite Project/Questions List.md",
+    "Multiple Independently Targetable Reentry Vehicle.md",
+    "Smack/Projects/C2E Rewrite Project/C2E Initial Examination Notes.md",
+    "Time-Based Force and Deployment Data.md",
+    "Coordinated Fire Line.md",
+    "Smack/Projects/C2E Rewrite Project/Master Document.md",
+    "Smack/Projects/Neo4j Migration/Neo4j Migration.md",
+    "Smack/Projects/Neo4j Migration",
+    "Smack/Projects/C2E Rewrite Project/Meetings/C2E Model Pipeline Kickoff Aug 31.md",
     "Smack/KG Syncs/KG Sync August 24.md",
+    "Courses/SystemDesign/SDIAH Framework.md",
+    "Multi-Mission Affordable Capacity Effector Program.md",
+    "_attachments/Pasted image 20260831120310.png",
     "Smack/KG Syncs/KG Sync August 31.md",
-    "Smack/C2E Rewrite Project/Master Document.md",
-    "Smack/C2E Rewrite Project/Meetings",
-    "Smack/C2E Rewrite Project",
+    "Smack/Projects/C2E Rewrite Project/Meetings",
+    "Smack/Projects/C2E Rewrite Project",
     "_attachments/Pasted image 20260827191827.png",
     "_attachments/Pasted image 20260827145958.png",
     "_attachments/Pasted image 20260827143118.png",
@@ -299,7 +286,6 @@
     "_attachments/Pasted image 20260826141638.png",
     "Docker.md",
     "_attachments/Pasted image 20260826124227.png",
-    "conflict-files-obsidian-git.md",
     "_attachments/Pasted image 20260823172435.png",
     "_attachments/Pasted image 20260823171916.png",
     "_attachments/Pasted image 20260823171858.png",
@@ -311,21 +297,12 @@
     "Brevity Code.md",
     "Ancillary Surface Craft.md",
     "AIM-424 Long Range Air-to-Air Missile.md",
-    "Target Nomination List.md",
-    "Smack/Onboarding/Onboarding Session with RPC August 13.md",
-    "Smack/KG Syncs/KG Sync August 17.md",
-    "Maritime Intelligence Operations Center.md",
-    "Military Operation.md",
-    "Military Exercise.md",
-    "Fire Support Task.md",
-    "Combat Assessment.md",
     "Smack/Projects",
     "Smack/Contracts",
     "Smack/KG Syncs",
     "Smack/Onboarding",
     "Smack/All-Hands",
     "Smack",
-    "RC-135V",
-    "explainers/Inbox Pattern/script.js"
+    "RC-135V"
   ]
 }

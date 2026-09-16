@@ -1156,7 +1156,7 @@ P2C GEOMETRIES
 - ==Air Control Measures (ACMs)==, Polygons: Air operating/orbit areas. Current code primarily uses each feature's centroid as an air routing and ISR sensor location.
 - ==Maritime Control Measures (MCMs)==, Points: Maritime movement, ISR, and strike locations. Maritime platforms can act from these sites.
 - ==Ground Control Measures (GCMs)==, Points: Ground movement, ISR, and strike locations. Ground platforms can act from these sites.
-- ==Target Acquisition Indicators (TAIs)==, Polygons: Areas associated with RED targets. Targets are assigned to TAIs, and their centroids are used for strike range and sensor-effectiveness calculations.
+	- ==Target Area of Interest (TAIs)==, Polygons: Areas associated with RED targets. Targets are assigned to TAIs, and their centroids are used for strike range and sensor-effectiveness calculations.
 - ==Restricted Airspace (RAS)==, Polygons:  Optional exclusion areas. Air graph edges intersecting these polygons are removed.
 - ==Air-to-Air Refueling Points (AARs)==, Points: Optional air-network nodes. Today they're added to the air TWM graph, alongside WPs and ACMs. Their existence doesn't imply that we have a detailed fuel/refueling model, we don't.
 
@@ -1646,11 +1646,481 @@ Output: None
 
 __________
 
+Using my file:///Users/sam/code/smackspace/docs/investigations/unified-c2e/activity-deep-dive.html document, which is supposed to be a step-by-step walkthrough of all operations.
+
+# Activity 1: Threat Weighted Map (TWM)
+- Creates one graph per distinct in-range BLUE platform type.
+	- On the graph, a node is a permitted movement location.
+	- An edge is a direct route between two nodes.
+	- An edge score is the sum of proximity-based contributions from RED weapons that can engage that BLUE platform type.
+
+> [!NOTE]- Q: What does "In Range" mean, re: "distinct in-range BLUE platform types"?
+> It means that a unit is geographically close-enough to the principal operating boundary, based on the BLUE platform type's own maximum weapon range.
+> The code does this:
+> 	1. Finds the largest Range value in WpnNet where the BLUE platform type is the attacker.
+> 	2. Expands the principal-boundary polygon outwards by that distance.
+> 	3. Includes a BLUE platform instance if its current latitude/longitude falls inside the expanded polygon.
+> 	4. Creates a TWN graph for each distinct qualifying platform type, not for each instance.
+> So if an F-35 type's WpnNet entries have range of 370km and 925km, an F-35 instance qualifies if it is inside the principal boundary or within 925km of its exterior.
+> If the platform type has no matching WpnNet entry, the expansion distance defaults to zero, so the instance must be inside the original boundary. 
+> So "in-range' doesn't mean that any particular *target* (or any RED unit) is within range, nor that a platform's selected munition can reach a selected target.
+> Note that the inclusion distance (polygon "expansion" distance) is platform-specific; an F-35's longest weapon doesn't expand the eligibility area for a B-52 or a destroyer. Each type gets its own buffer.
+> ==Note:== The code takes the largest range from any WpnNet row for a particular platform type, but doesn't check whether that weapon is relevant/compatbiel to a nominated target, and definitely doesn't check whether that weapon could reach compatible targets, just that the weapon can reach the box. Note that if a particular platform type has a 10,000 km weapon, BLUE instances of that type could qualify from thousands of kilometers away; it wouldn't expand eligibility for every particular BLUE type, but it could make that particular type effectively global. 
+
+> [!NOTE]- Q: What about how we include RED platforms?
+> Even RED instances that are not nominated as targets contribute to the TWM, and even RED instances that aren't within the principal boundary can effect TWM edge weights.
+> For each RED instance, TWM does this independently:
+> 	1. Look up the RED platform type's longest-range weapon in WpnNet
+> 	2. Expand the principal boundary by that range
+> 	3. Include the RED instance if its current location is inside that expanded area.
+> Then, when we construct a graph for a particular BLUE platform type, an included RED instance affects an edge ONLY IF
+> - WpnNet say s that the RED platform and one of its munitions can attack that BLUE platform type.
+> - The *edge* passes within that specific munition's range of the RED instance.
+> So a RED instance can be initially included because its weapon can reach into the operating area (principal boundary) with any weapon, but then not actually effect an edge either because the edge is outside range, or because the RED platform can't effect our BLUE platform with any of its munitions.
+> Note that both targeted and non-targeted ("fixed") RED units can contribute to edge weights, not only the RED entities selected as targets in the operation.
+
+
+Inputs read:
+- WP, AAR, ACM, GCM, MCM, TAI, UB, and RAS GeoJSON strings
+- Principal-boundary GeoJSON
+- `workflow_group_id`
+- Athena WpnNet engagements
+- Athena RED and BLUE element instances
+
+Request fields NOT read:
+- Approved targets, including selected platform/munition
+- BLUE or RED laydown overrides
+
+Output:
+- `platforms`: One node list and symmetric cost matrix per platform type
+- `summary`: Platform, edge, mode, control-measure, and RED-instance counts
+- Iris `ArtifactRef` with bucket/key/byte count/digest/timestamp
+
+
+Steps:
+1. Reduce the workflow request to only TWM-specific fields
+	- We construct a new TWMParams object containing geometry strings and the workflow-group ID. This is not a pass-through of the complete request; approved targets, laydown overrides, and model settings are excluded.
+	- Consequence: An operator-approved target outside ordinary TWM RED-instance range is not force-retained merely because it was approved.
+2. Parse each geometry category independently
+	- Each input string must decode to a GeoJSON `FeatureCollection` or `Feature`
+	- A feature name comes from `properties.name`; absent names become `unnamed_N`. Duplicate names within one category are silently skipped, and features without geometries are also skipped.
+	- All geometry types are reduced to a Shapely geometry plus its centroid. Later, node calculations only use the centroid coordinates.
+	- Problem: A polygon's full shape matters for RAS intersection and TAI membership, but most location tables and graph nodes preserve only the centroid. Also, duplicate and (more important) missing features can disappear without a validation error (unsure if there's logging).
+3. Parse one principal-boundary polygon
+	- If the boundary is a FeatureCollection, only its first feature is used.
+	- The resulting geometry must be a Polygon; a MultiPolygon is rejected. This polygon becomes the spatial reference for filtering BLUE assets, RED threats, and selected control-measure categories.
+	- Problem: The assumption that the first feature is the complete authoritative operational boundary, and that additional features in the boundary collection are ignored without warning.
+4. Open an Athena client scoped by workflow group
+	- ==Note==: The constructor accepts Neo4j/URI/username/password, but the implementation uses ATHENA_URL and an insecure gRPC channel.
+	- ==Note:== Instance, generation-point, and sensor queries carry the workflow-group context, while WpnNet and platform-stat queries do not carry that context in their request types.'
+		- Specifically, this means whether the gRPC request includes the "workflow_group_id" key under the "context" key in the sent JSON. Athena can then restrict its Neo4j query to scenario nodes belonging to that group, specifically, nodes marked as scenario data whose `athena_workflow_group_id` equals the supplied ID. This prevents one C2E group from reading another's. The Assumption being made here is that group context is used for the laydown/instance graph, while global WpnNet rows are appropriate for this run.
+			- Element-instance and generation-point queries include the ID, and Athena uses it to filter Neo4j results.
+			- WpnNet, platform-stat, and effector-stat request types contain only fields such as team. Those queries read the shared type-level catalog, not a group-specific laydown.
+			- ==Note:== Sensor-capability requests include the context field, but the inspected Athena implementation currently ignores it and reads the shared sensor catalog.
+		- If no workflow-group ID is provided, the scoped Neo4j select base, non-scenario nodes rather than nodes from every workflow group.
+5. Read the complete weapon network and index it twice
+	- Each Athena engagement (A WpnNet capability record returned by Athena, which says something lke (AttackerType, Munition, TargetType, Range, Salvo Size, Capacity) becomes two dictionary entries:
+		- `by_target[target]`: "Which attacker and munition can threaten this target platform type?" Identifies RED platform types and weapons that threaten the BLUE platforms.
+		- `by_attacker[attacker`: "Which target types can this attacker engage, with which munition?" Identifies RED platform types that can be effected by BLUE platforms with some munitions.
+	- Both carry range, salvo size, capacity, alert rate, magazine depth, and speed.
+6. Read and spatially filter RED instances
+	- Athena returns RED instances only when lat/long/underscore in a name are present. For each RED platform type, Wizard finds that type's maximum weapon range in WpnNet and buffers the principal boundary by that distance; the instance survives if its point is inside the corresponding buffered polygon. 
+	- Each surviving red instance will receive a deduplicated list of positive-range effectors from `by_attacker[platform_type]` (What BLUE instances can this RED instance engage, and with what munitions?)
+	- Note: Difference from ETL: TWM doesn't provide an `include_instance_ids`; ETL later force-retains approved target IDs; TWM does not.
+7. Read and spatially filter BLUE instances
+	- Athena returns BLUE instances with coordinates, underscore-bearing names, platform metadata, mode, and generation-point name.
+	- Wizard reconstructs the platform type from the first and last underscore-separated name segments.  So `F-35B_001.VMFA-122.MAG-13.3MAW_USA` becomes platform type `F-35B_USA`.
+	- It then retains only air, ground, or maritime modes and only instances inside the principal boundary buffered by that platform type's maximum weapon range.
+8. Collapse BLUE instances to distinct platform types by mode
+	- TWM doesn't build a graph per instance, it builds a graph per distinct platform type, so all F-35B instance share one `F-35B_USA` TWM, which will tell about their aggregate risk from all relevant RED platforms/munitions). 
+9. Filter control measures using a 230km approximate buffer
+	- The boundary buffer converts kilometers to degrees using a 111km/latitude degree and a cosine-adjusted longitude estimate, then averages those values into one degree radius.
+		- WP, TAI, and MCM records are exempt and always retained, but AAR/ACM/GCM/UB/RAS records survive only when their centroid is inside the buffered polygon.
+	- This is a coarse geographic filter intended to discard map features that are too far from the operation area.
+		- Wizard first enlarges the principal boundary by a 230km margin, and then decides which control measures to retain.
+		- Currently, we keep every WP, TIA, MCM record, regardless of location (even if they're thousands of kilometers away).
+		- For AAR/ACM/GCM/UB/RAS, we keep only if its center point is inside the principal boundary, plus the 230 km margin.
+		- The kilometer-to-degree part is necessary, because the GeoJSON coordinates are long/lat, measured in degrees, while the desired margin is specified in kilometers. The code approximates 1 degree of latitude for 111 km, and 1 degree of longitude to 111 * cos(latitude) km. It averages these two values and uses the result as one buffer distance in degrees. Wizard then enlarges the polygon by approximately that many degrees.
+			- ==Note:== Is this a good assumption to make? Is there a better way to do it? Probably create an accurate 230km buffer using a suitable projected coordinate system or geodesic distance calculation, not an approximate conversion from kilometers to degrees. We could then include geometries according to their shape (point, line, polygon might have different rules, though I think we're all using polygons for these). The current centroid test can exclude a large polygon that significantly overlaps the relevant area just because its center is outside, or it can include a large polygon whose center is inside, even though almost all of it is outside (maybe fine), and it can treat equivalent distances differently depending on latitude.
+			- That is not a true 230 km geographic buffer. Longitude and latitude degrees represent different physical distances, and the difference grows at higher latitudes. Averaging them into one number produces an uneven real-world margin.
+10. Select Graph Nodes by Platform Domain
+	- Air graphs use WP + AAR+ ACM centroids. Ground graphs use GCM centroids. Maritime graphs use MCM centroids.
+		- TAI polygons, unit boundaries, principal boundaries, RAS polygons, and generation points are not TWM nodes.
+		- This is because the graph represents candidate travel locations; TAIs are target referents, and RAS polygons are route-exclusion geometry.
+	- ==Note:== ETL initially makes every location category (including TAI and GP) part of one complete graph; TWM, in contrast, uses separate domain graphs with a smaller node vocabulary.
+11. Generate candidate direct edges and remove two classes
+	- Wizard evaluates every unordered graph node pair (A+B, A+C, etc.)
+	- For air graphs, it drops an edge when its straight line intersects any parsed RAS polygon. 
+		- ==Note:== Interestingly, intersection ues the original unfiltered RAS list, not the boundary-filtered list.
+	- For every mode, a route longer than 300km is dropped when any same-domain node lies within 50km of the straight segment.
+		- Important: 300km isn't a maximum edge length... a 600km edge still remains if no intermediate node lies within 50km of its segment.
+12. Calculate each RED-weapon contribution to an edge
+	- For the current BLUE platform type, Wizard finds RED platform types that can engage it.
+	- For each matching RED instance and each listed effector, it computes the approximate distance from the RED point to the straight route segment. If the distance is within weapon range, the contribution is 1 - distance / range, clamped to 0-1.
+		- A RED weapon with 100km range located 20km from the route contributes 1-20/100 = 0.8
+	- The final edge score is the sum of all contributions from all red relevant red platforms. It's not clamped, so two threats can produce a score greater than one.
+		- ==Note:== Interesting that the single-threat contribution is clamped, but not the summed contributions.
+13. Store a symmetric matrix for each platform type:
+	- Each retained edge is written to both `matrix[i][j]` and `matrix[j]i]` (meaning A->B and B->A cost the same to transit). 
+	- Each cell contains:
+		- `score`
+		- A contribution map keyed as `<red instance name>_<effector name>`. Diagonal and omitted edges are null.
+	- ==Note:== Wizard doesn't just choose *one* RED munition, it adds every qualifying munition to the edge threat value.
+		- So if `SAM_007_CHN` has 3 effectors (HQ-9, HQ-16, MANPAD) that can effect an F-35, each of them would have a contribution (0.7+0.6+omtited beecause out of range of edge = 1.3)
+		- The matrix cell would look like:
+		- ```
+			{
+			  "score": 1.4,
+			  "contributions": {
+			    "SAM_007_CHN_HQ-9": 0.8,
+			    "SAM_007_CHN_HQ-16": 0.6
+			  }
+			}
+		  ```
+		- So there's no decision like "The SAM would probably use HQ-9;" both weapons are treated as indepednent, simultaneous sources of route threat, and their values are added together.
+		- ==Note:== That means a platform with more compatible weapon types can generate a larger threat score merely because more weapons are listed in WpnNet. The calculation does not account for which weapon is loaded, which weapon would actually be used, ammunition quantity, or mutual exclusivity between weapons.
+	- ==Note:== I'm also realizing that there's nothing here about the actual effectiveness of enemy munitions. If you're at the tail end of range away from a highly deadly munition, versus close to a not very dangerous weapon, the not very dangerous weapon has a larger contribution. There's nothing about the weapon's characteristics (or requirements in terms of RED tq) incorporated into the threat value.
+	- ==Note:== TWM itself doesn't decide whether a RED threat is fixed or targetable; that classification is introduced later, and joined back to the TWM data during Solve. TWM itself writes matrix cells like the code block above: For a given route edge, when used by a friendly platform, we the aggregate score, and the contributions to that score from various red platform/effector pairs. The later ETL activity assigns a preliminary classification when it builds a RED laydown table, using ("RED point inside a TAI polygon = Targetable, vs Red point outside every TAI = fixed). If a RED point is outside every TAI, ETL associates it with the nearest TAI, but still labels it `fixed`.
+		- ==Note:== This is crazy, lol. So it's the Geometries we upload (which include TAIs) that determine if a RED unit is targetable, rather than the FST target list from the P2C flow, or the checkbox selection of targets in the weaponeering step of the C2E flow?
+			- Those checkbox-selected targets are called 'Principal' targets in the code, it seems. RED units can be principal/not principal and inside TAI/outside TAI.
+			- ETL force-retains them even if they are outside the normal RED geographic filter
+			- Solve designates surviving, strikeable selected targets as "principal"
+			- The objective gives large reward for destroying principal targets.
+			- ... Anyways, some weird contradictory behavior exists:
+				- A selected principal target outside every TAI can be destroyed for the principal target reward, but its threat contribution remains a fixed route cost after its destruction.
+				- An unselected RED unit inside a TAI is treated as a targetable ***residual*** threat. The solver may decide to attack it solely to remove its contribution from a route.
+				- So: "In the configured Wizard revision, TAI geometry—not the operator’s selected target list—determines the preliminary `fixed` versus `targetable` classification used for route-threat costs. The selected target IDs are handled separately: they are force-retained during ETL and later designated as principal targets during Solve. Consequently, a selected principal target outside every TAI can still have `fixed` threat costs, while an unselected RED unit inside a TAI can be treated as a targetable residual and attacked to reduce route cost." The world "targetable" is badly overloaded here: It does not mean "selectable by the operator as a target," it means "the model may remove this units route-threat cost after a modeled strike."
+			- If "targetable" just means "blowing it up would remove its effect from the TWM," shouldn't this apply to every red unit? I don't see the point of only including those that are in TAIs.
+14. Convert platform failures into data, validate only the top-level keys, and write Iris
+	- We store exceptions while building a platform map is caught and stored as `{"error": "..."}`, and the activity can still succeed.
+		- So `failed_platforms > 0` doesn't fail the stage. Precompute later SKIPS errored platform maps.
+			- ==Note:== Per-platform errors can occur only when constructing that platform's map. In contrast, invalid top-level GeoJSON, an Athena failure, failure to parse the principal boundary, or failure to load WpnNet will all fail the entire TWM activity, normally.
+				- Per-platform errors could be: 
+					- Invalid or malformed coordinates passed to Shapely.
+					- A geometry error while intersecting an edge with a RAS polygon.
+					- A nonnumeric or otherwise malformed weapon value used during threat calculation.
+					- An unexpected missing field or incompatible type.
+					- Memory exhaustion while creating a very large N × N matrix.
+					- An implementation bug triggered by a particular platform or domain.
+				- So this is a pretty shit pattern that probably shouldn't be doing what it's doing.
+				- Suppose we had:
+				- ```
+					{
+					  "platforms": {
+					    "F-35B_USA": {
+					      "error": "some geometry failure"
+					    },
+					    "MQ-9A_USA": {
+					      "nodes": ["WP-1", "WP-2"],
+					      "matrix": [...]
+					    }
+					  },
+					  "summary": {
+					    "total_platforms": 2,
+					    "successful_platforms": 1,
+					    "failed_platforms": 1
+					  }
+					}
+				  ```
+				  -  TWM will still succeed, because Validation checks only that the top-level platforms and summary keys exist; it doesn't reject failed_platforms=1
+				  - ETL will then succeed independently (it reads the TWM artifact and performs the same top-level validation for some reason, but does not use its platform matrices)
+				  - Precompute skips the failed map in one derived calculation; When Precompute creates its confusingly-named `targetable_costs` object, it does this: `if "error" in twm_data: continue`. Consequently, it produces no edge-score entries for the F-35! It still copies the original TWM payload into its output artifact.
+				  - The configured solve then probably fails. It rereads the raw TWM payload and iterates every platform entry. It assumes each entry has `nodes` and `matrix` keys, so we'll get a KeyError and fail the solve activity. Retries will encounter the same problem.
+				  - Recap: "A per-platform exception does not fail TWM. The error is embedded in the artifact, and top-level validation accepts it. ETL does not use the platform matrices and continues. Precompute omits the failed platform when deriving aggregate edge scores but preserves the original error entry. The configured Solve loader does not handle that entry and expects `nodes` and `matrix`, so the failure is deferred until Solve rather than safely degraded."
+Example TWM data:
+```json
+{
+  "platforms": {
+    "F-35B_USA": {
+      "platform_type": "F-35B_USA",
+      "mode": 1,
+      "mode_name": "Air",
+      "nodes": ["Cy 11", "ACM23"],
+      "node_coords": {
+        "Cy 11": [121.02, 20.81],
+        "ACM23": [121.55, 21.10]
+      },
+      "num_edges": 1,
+      "matrix": [
+        [null, {"score": 0.8, "contributions": {"SAM_007_CHN_HQ-9": 0.8}}],
+        [{"score": 0.8, "contributions": {"SAM_007_CHN_HQ-9": 0.8}}, null]
+      ]
+    },
+    "MQ-9_USA": ... # Adding this just to show that there could be multiple platforms
+  },
+  "summary": {
+    "total_platforms": 1,
+    "successful_platforms": 1,
+    "failed_platforms": 0,
+    "total_edges": 1,
+    "platforms_by_mode": {
+      "Air": 1,
+      "Ground": 0,
+      "Maritime": 0
+    },
+    "control_measure_counts": {},
+    "red_instances_count": 1
+  }
+}
+```
+
+(Non-exhaustive problems of TWM; Still look through the above "Note" highlighted stuff to get more. Some rewrite tips are in the html doc)
+- Unsafe modeling assumption: Weapon range being used as the platform-availability radius. A BLUE instance qualitfies when it's near enough to the boundary area according to the longest weapon ever associated with its platform type. Doesn't establish that the weapon is carreid in teh current loadout, or that the wepaon can affect any approved or present target.  There's no maximum cap, so an intercontinental-range entry can make a paltform type qualify from an operationally meaningless distance.
+- TWM and ETL can disagree about which RED instances exist
+	- TWM retains RED instances by a per-type weapon-range buffer
+	- ETL applies the same filter but additionally force-retains approved target IDs
+	- An approved target can therefore appear in the optimizer's red laydown without having contributed any threat data to the TWM. 
+- Platform types and threat contributions depend on parsing names
+	- BLUE platform type is reconstructed from underscore-separated instance names instead of using the Athena-returned platform-type field?
+		- Not sure what hte best is here
+- Valid geometries can be ignored without stopping the run
+	- E.g. only the first principal-boundary feature is used, duplicate control-measure names are skipped, several spatial tests use centroids, and kilometer buffers are approximated in longitude/latitude degrees. These shortcuts can execute a polygon that intersects ht operating area or produce large errors for very long range and high latitudes.
+- The threat score has no defensible physical interpretation. 
+	- The score is a linear function of perpendicular distance to a strait segment. Contributions are summed without a maximum, then copied symmetrically to both travel directions. This is neither a probability nor an expected loss measure, but we treat it like an objective cost.
+- A partially-failed map can be published as a successful activity.
+	- A per-platform exception becomes an `error` object inside the artifact. Precompute skips that platform, while top-level validation still passes.
+
+
+
+# Activity 2: Extract, Transform, Load
+- ETL converts geometry and Athena records into the dataframe schemas expected by the legacy optimizer. It's output is an outer JSON object containing 22 dataframe values, each itself encoded as a JSON string, pluss three counts.
+
+Inputs:
+- All geometry and the workflow-group ID
+- Approved target IDs
+- Optional BLUe/RED laydown JSON
+- Debug sampling/filter controls
+- Athena instances, generation points, WpnNet, platform/effector stats, and sensor labels.
+
+Output:
+- 22 schema-shaped dataframe strings
+- `num_assets, num_targets, num_control_measures`
+- Iris artifact reference
+
+
+1. TWM Check
+	- ETL downloads the referenced TWM object and performs the two-top-level-key validation that TWM does too. It then calls `run_wizard_etl(input.params)` with only the original request parameters no TWM instances enter ETL.
+		- ==Note:== This is weird that ETL does this repeated check and then doesn't do anything with ETL, right?
+2. Reparse and refilter the original geometry
+	- ETL repeats the GEoJSON parsing, principal-boundary selection, and 230km filtering performed by TWM. It doesn't reuse TWM's parsed objects or record the filtered set as a shared run snapshot.
+		- ==Note:== The GeoJSON parsing twice between activities (which require serialization/deserialization at edges) isn't a problem, it's the filtering decision being made twice on geometries (the 230km exclusion policy.)
+	- Each surviving control measure becomes a location row in `df_locs` with `loc_id`, `loc_tt`, and `(lat, lon)` centroid. Here, `loc_tt` would be values like `wp`, `acm`, `gcm`, `mcm`, etc.
+		- Aside: `tt` = "Type", e.g. effector_tt is weapon type, loc_tt is location type, etc.
+	- ```
+	  loc_id   loc_tt   loc_ll
+	ACM23    acm      (21.10, 121.55)
+	`Cy 11    wp       (20.81, 121.02)
+	TAI-4    tai      (20.95, 121.70)
+	  ```
+	  - Generation points are subsequently added to this same table, using `loc_tt = "gp"`
+3. Choose overrides: one of the two source-system branches
+	- If both laydown overrides are null, ETL uses Athena/KG data, but if either override is non-null, ETL switches to the alternate branch and uses the provided JSON for each supplied side. It BLUE is missing, it uses the bundled BLU laydown, while if Red is missing, it synthesizes RED target rows from TAI locations.
+	- Weapon, platform, and effector tables come from bundled CSV data, and Athena remains in use only for sensor labels.
+		- The two override parameters are `laydown_blue` and `laydown_red`; Under the normal product path, BOTH SHOULD BE NULL.
+		- The unusual alternate-data path activates if either parameter is non-null. 
+4. In the normal branch, reread WpnNet and graph entities
+	- ETL opens a new Athena client and independently reads WpnNet, generation-point nodes, RED intsancse, BLUE intsances, platform statistics, effector statistics, and sensor capabilities.
+		- ==Note:== Note that a graph change between last read of WpnNet and this read of WpnNet can alter platform types, weapon ranges, target inclusion, GP coordinates, or sensor eligiblity. We should probably be snapshotting or something.
+5. Force approved target IDs into the ETL RED set
+	- ETL extracts only `target_id` from each approved-target record and passes those IDs to RED-instance filtering... a matching ID survives even if it falls outside the platform-specific buffered boundary.
+		- The idea is that an operator-approved target should remain available to the model, even if ordinary range scoping would omit it.
+			- ==Note:== This forced inclusion is absent from the TWM, so an approved target can exist in t`df_laydown_red` without ever contributing to a TWN edge.
+				- Q: Wait, isn't there a guarantee that these RED platforms not included in TWM would also not influence TWM edges, since it's a stricter condition?
+				  A: Not necessarily. That conclusion would be valid only if every TWM edge were guaranteed to lie inside the principal boundary. The implementation does not guarantee that.
+				- Recap: "ETL force-retains approved RED target IDs, but TWM does not. An approved target outside TWM’s principal-boundary-based RED filter can therefore appear in df_laydown_red without any TWM contribution. That absence cannot be interpreted as confirmed zero threat because TWM can contain route nodes and edges outside the principal boundary, and the two activities read and transform their inputs independently. If every route edge were entirely inside the principal boundary, and both calculations used the same distance model (they don't; The boundary buffer and point-to-edge calculation use different geographic approximations) and WpnNet snapshot, then a RED instance outside the boundary by more than its longest weapon range could not threaten any such edge."
+	- Rank, formation, supported FSTs, selected munition, and selected platform are not used.
+6. Classify each RED instance by TAI membership
+	- ETL tests each RED point against TAI polygons. The first containing TAI assigns `tai_id` and `cost_tt="targetable"`; if the point is outside every TAI, ETL still assigns the nearest TAI, but leaves `cost_tt="fixed`".
+		- `targetable` and `fixed` describe whether the threat instance is inside a target area... and those that are inside target areas mean that their contribution to edges is removed after the target's modeled ==destruction time.==
+			- Destroying a `targetable` target effectively disables its TWM edge contributions for later route traversals, but note that the stored TWM matrix is never directly modified or recalculated. It just determines how Solve interprets an existing contribution over time. A targetable contribution can stop being charged after the target's modeled destruction time; a fixed contribution remains charged for every traversal. The TWM artifact itself remains unchanged.
+7. Build BLUE and RED laydown rows
+	- Each BLUE instance becomes `(asset_id, asset_tt, asset_domain, gp_id`)
+		- ```
+		asset_id:     F-35B_001.VMFA-122.MAG-13.3MAW_USA
+		asset_tt:     F-35B_USA
+		asset_domain: air
+		gp_id:        gp_F-35B_001.VMFA-122.MAG-13.3MAW_USA
+		  ```
+		- Platform type are uppercased in the BLUE table 🤷
+	- Each RED instance becomes (`target_id`, `target_tt`, `tai_id`, `cost_tt`)
+		- ```
+		target_id         target_tt   tai_id   cost_tt
+		T-055_105_CHN     T-055       TAI 4    targetable
+		SAM_007_CHN       SAM         TAI 4    fixed
+		  ```
+	- These establish stable instance IDs plus type-level information to join to statistics and capabilities.
+	- ==Note:== A missing `mode` becomes an air asset, rather than a validation failure. That's probably not what we want.
+8. Resolve each BLUE asset's generation point. (NOTE: This actually happens like.... inside the loop of the previous step, where we obviously have the gp_id. We determine teh gp_id reference, and the resolve each gp_id to coordinates, create the transient GP-coordinate rows, append them to df_locs, and later build df_gps.)
+	- If the generation point is "self", ETL creates `gp_<asset_instance>` at the asset's current coordinates, otherwise it uses the named GP node and its coordinates.
+	- ==Note:== Suppose Athena returns a BLUE instance with a named generation point of `Andersen_AFB`; Wizard them looks for a generation-point record named `Andersen_AFB`. If it finds one, the result is correct, but if it doesn't find one, Wizard does not raise an error, it keeps the name but substitutes the asset's current coordinates. Downstream data therefore looks like a successfully-resolved named generation point, even though Andersen_AFB was never found. This can also have the result of result units that both airplanes refering to the same missing gp_id to silently then have the SAME fallback coordinates; It's NOT the case that they'll have different fallback locations (their own locations), thankfully, but when they're added to df_locs, Wizard deduplicates... and only the first row wins. Both aircraft are associated with the same coordinate, which came from only the first aircraft.
+		- Comment: It's like at every opportunity, when we had the opportunity to loudly fail (correctly) when we have bad data, we instead decide to just paper over it silently with a shitty solution that will produce (in the worst case) wrong answers.
+		- "Wizard does not distinguish “named GP successfully resolved” from “named GP missing, asset coordinates substituted.” If multiple assets produce conflicting coordinates for the same GP name, Wizard silently keeps the first coordinate and discards the others."
+9. Build platform, effector, loadout, and kill-probability tables
+	- ETL filters BLUE platform stats to types present in the laydown, deduplicates effectors by name, builds loadouts from `by_attacker`, and derives per-shot success from WpnNet salvo size using a hard-coded cumulative `p_k=0.9`. 
+		- When we say "builds loadouts," what do we mean?
+	- This step creates five type-level lookup tables.
+	- Assume we had: 
+	- ```
+	  BLUE instances:
+		F-35B_001_USA → type F-35B_USA
+		F-35B_002_USA → type F-35B_USA
+		MQ-9A_004_USA → type MQ-9A_USA
+		
+		RED instances:
+		T-055_105_CHN → type T-055
+		SAM_007_CHN   → type SAM
+	  ```
+	  - ETL needs to answer:
+		  - How fast and far can each BLUE platform travel? `df_pstats_blue`
+		  - What are the characteristics of each BLUE weapon? `df_estats_blue`
+		  - Which weapon does each BLUE platform type carry, and how many? `df_loadouts`
+			  - ```
+				      asset_tt             loadout_id effector_tt  asset_effector_capacity_ct
+				0    F-35B_USA  loadout_F-35B_USA     AGM-158B-2                           2
+				1    F-35B_USA  loadout_F-35B_USA       AIM-120D                           4
+			    ```
+			- Q: So is this loadout_id col just like... bullshit? Is it just loadout_{asset_tt}? 
+				- ==Note: ==A: Yeah. The solver is designed to support alternative loadout configurations (e.g. loadout_ids of F35_STRIKE, F35_AIR_TO_AIR, F35_SEAD, with different effectors and capacities, and the solver could then choose exactly one configuration for each aircraft), and weapons sharing a `loadout_id` would describe one complete, internally-compatible configuration. But in reality, ETL doesn't have those alternative configurations; instead, it takes every WpnNet weapon associated with a platform type and places them all under one synthetic loadout.
+				- The solver requires every asset to choose exactly one loadout; because ETL provides only one, the choice is forced.
+					- LM: "Therefore, if WpnNet’s Capacity means “maximum number when configured to carry this weapon,” ETL is interpreting it incorrectly as “number simultaneously available alongside every other compatible weapon.” In the current implementation, we "Group every WpnNet weapon associated with a BLUE platform type under one generated identifier and treat all listed per-weapon capacities as simultaneously available to every instance of that platform type." That is not a real loadout, it's a platform-weapon compatibility catalog converted into a capacity bundle.  "ETL creates one synthetic loadout per BLUE platform type. It places every WpnNet-compatible weapon under that loadout and copies WpnNet Capacity into a per-weapon capacity column. Because no alternative loadouts are generated, every asset of the type is forced to receive the same bundle. Capacities for different weapon types are treated as simultaneously available; no shared carriage, hardpoint, weight, or configuration constraint limits the combined load."
+		  - How effective is each weapon against each RED platform type? `df_pk`
+			  - ==Note:== WpnNet does not provide the per-shot probability used here; ETL assumes that a complete salvo has a 90% probability of success, so it then back-calculates a per-shot probability that would produce 90% cumulative success after `n` independent shots. `p_per_shot = 1 - (1 - 0.9)^(1/n)`
+			  - ==Note:== Solve doesn't treat this ETL table as authoritative. ==Precompute repeats the calculation using a hard-coded cumulative probability of 0.2==
+				  - ((WTF))
+				  - Solve discards ETL's `df_pk` rows and rebuilds the table from the Precompute value.
+		  - What are the movement characteristics of each RED platform type?: `df_pstats_red`: RED platform statistics
+			  - ==Note:== If Athena has no matching record, ETL just manufactures as fallback of 
+				  - ```
+				    target_domain:    surface
+					target_category:  fixed
+					target_spd_kmph:  0
+					target_rng_km:    0
+				    ```
+			  - ==Note:== "If RED platform statistics are missing, pretend that type is a stationary, zero-range surface target." ((Why D:))
+10. Expand sensor-capable platform types to four modalities
+	- Athena is queried for BLUE platform types carrying Radar, ELINT, or EOIR labels.
+	- Country suffixes are normalized for matching. 
+11. Test
+	- Test
+12. Test
+	- Test
+13. Test
+	- Test
 
 
 
 
+==NOTE:== I realized that the analysis so far was based around the commit that Chat saw in production (in some Helm chart), rather than the more current commit seen in Main, and some things have materially changed. 
+==Important Changes:==
+- Control-measure boundary filtering changed 
+	- Old code exempted WP, TAI, and MCM from principal-boundary filtering; Main also exempts ACM and GCM; therefore all WP, TAI, MCM, ACM and GCM records are retained, regardless of their distance from the principal boundary. AAR/UB/RAS remain boundary-filtered. This can materially enlarge the graph and preserve air ISR orbits and ground launch sites that the old version discarded.
+- Restricted airspace now affected Solve movement graphs: The request's RAS polygons are passed into the Solve loader; Solve removes air edges whose straight-line segments intersect restricted airspace. RAS does not filter maritime or ground edges.
+- Operational domains are no longer fixed to air and maritime
+	- Main determines active domains from BLUE asset types that can perform an action. It supports air, maritime, and ground. `excluded_domains` can remove domains.
+		- Air: Can move through both WP and ACMs. Air ISR sites are ACMs. Air weapon release sites are WPs. AARs/TAIs are not traversable.
+		- Maritime: Movement, ISR, and strikes through MCM
+			- ==Note==: ISR is intended at MCM, but normal precompute does not produce MCM sensor placements
+		- Ground: Movement, ISR, and strikes through GCM
+			- ==Note==: ISR is intended at GCM, but normal precompute does not produce MCM sensor placements
+	- ==Note:== Not sure if this is new, but one additional constraint is that each BLUE asset is assigned exactly one role for the entire solve: Attack, ISR, Escort, or Rest. 
+	- ==Note:== The solve code is written to support maritime ISR from MCMSs and ground ISR from GCMs, but normal precompute only evaluates sensor performance at ACMs. The domain (solve) filter subsequently rejects ACM-based sensor placements for maritime and ground platforms because an ACM is an air-domain node...
+- Cross domain movement is explicitly removed
+- Static ground and maritime assets are supported
+	- A speed-zero ground or maritime asset that has a sensor receives a static GCM or MCM home at its actual coordinates. It receives hold actions but no movement edges. Static air assets remain unsupported
+- End-at-home behavior changed
+	- Air assets finish at their home generation point, while maritime and gronud assets may finish at any reachable location in their domain.
+	- Feasible strikes are rebuilt differently...
+- Probability of kill authority changed
+	- We resolve weapon effectiveness primarily by weapon type and target type. Platform type is retained as provenance, but longer creates separate probabilities for the same weapon-target pair.
+	- Country-qualified target names take precedence during name resolution. Duplicate equivalent records collapse, conflicting probabilities for the same resolved pair cause an error.
+- Approachable but unreachable targets are retained
+	- Previously, downstream filtering could remove targets that had no feasible strike rows.
+	- We now retain all RED targets; apn approved target without a feasible positive-PK allocation is marked strikeable-false, gets zero aggregate PK, and is reported as skipped.
+	- This is important for threat modeling: An unreachable RED threat remains in the model, rather than disappearing.
+- Air tasking is tied to an actual feasible strike.
+	- An asset can receive attack tasking only if at least one of its feasible strike decision rows is selected. Assets with no feasible strike candidates are forced not to attack.
+- Satellite selection is deterministic
+	- The old path randomly sampled ten satellites and could fail when fewer than ten existed
+	- Main greedily selects satellites according to coverage of distinct relevant TAI/time observations, with NORAD ID as teh time-breadker
+- Target designation now happens before symetry constraints
+	- Principal/residual designation and strikeability are established before target are grouped for symmetry breaking
 
+
+> [!NOTE]- I really don't understand the current ISR situation, can you please explain it in more detail?
+> - In this context, ISR exists specifically to support a weapon release. 
+> 	1. The model considers selecting a strike
+> 	2. That weapon release requires a sufficiently-accurate target observation
+> 	3. That observation must be supplied by a deployable BLUE ISR platform OR a satellite pass
+> 	4. If no acceptable observation exists, that strike cannot be selected
+> - In Solve, every effector requires a cue observation at TQ=4, which corresponds to a maximum target-location error of approximately 21.618 km.
+> - Inflight ISR updates are currently disabled, as are Terminal ISR updates.
+> - So under current behavior, each selected strike requires exactly one qualifying observation before release; not "at least one"; the model constrains the observation count to exactly one.
+> - The observation window is specific: With the current ten-minute cue offset, the observation must occur during the ten-minute interval that starts twentyminutes before weapon release, and ends ten minutes before release.
+> - A deployable ISR platform must hold on station for at least ten minutes.
+> - How BLUE platforms become ISR candidates?
+> 	- ETL asks Athena for BLUE platform types associated with any of these sensor labels (Radar, ELINT, EOIR), then matches these platform types against the BLUE platform types in the laydown.
+> 	- ==Note:== The capability-building code then does something questionable: Once a platform matches *any* of these sensor labels, it assigns *all four* of these modalities to the platform (EOIR, SAR, ELINT, Radar). The code does not preserve which specific source sensor label caused the platform to qualify.
+> 	- Smack sensors later attempts to resolve each proposed platform/modality pair against its own sensor configuration, so not every combination necessarily survives ((?)), nevertheless, the upstream capability table overstates what the source query established. 
+> - In precompute, we gather every unique RED target type in the RED laydown, every TAI in teh input geometry, every ACM in the input geometry, every candidate BLUE platform type and sensor modality. It does NOT gather MCMs or GCMs for the sensor calculation. 
+
+==Note:== I think there's some sort of dormant logic for weapons that are configured to require an inflight update.
+- `minimum launch distance = weapon speed × time from launch until the inflight update` ((Lol this seems kinda silly? It seems to mandate an inflight update?))
+	- For such a weapon, a candidate must satisfy: `inflight-standoff distance < launch-to-target distance < maximum weapon range`
+	- The lower bound ensures the weapon would still be airborne when the update is scheduled. For example, if the weapon travels 200 km before its scheduled update but launches only 157 km from the target, it would reach the target before the update. That candidate is rejected.
+	- This only applies when inflight_tq is populated, though.
+- Our payload loaders set every weapon's inflight_tq to NaN, meaning "No inflight update required," retaining only a cue-quality requirement before launch.
+	- So this means that inflight updates don't affect normal solves.
+
+> [!NOTE]- What is Cueing?
+> In C2E, cueing means that before a planned weapon release, the plan must contain a qualifying sensor observation of the target's area.  A cue is a planned acquisition event.
+> A cue can be provided from:
+> - A deployable BLUE ISR asset if: 
+> 	- Its platform type is marked `isr_taskable`
+> 	- Its sensor has a precomputed observation opportunity for the relevant TAI and target type
+> 	- The calculated sensor TLE meets the TQ 4 threshold
+> 	- The optimizer assigns that asset to the ISR task
+> 	- The asset travels to and holds at the specified observation site
+> 	- Its `obs_hr` falls within the cue window
+> 	- Its holding step lasts at least 10 minutes
+> - An eligible satellite pass can provide the cue if:
+> 	- The satellite has a precomputed pass over the target's TAI
+> 	- Its fixed pass time falls within the cue window
+> 	- Its predicted TLE meets the TQ 4 threshold
+> With ISR enabled, selecting a strike automatically activates a cue requirement.
+> Comparison with weapon release: Weapon release is a planned kinetic event, where the optimizer must choose {An attacking asset, a feasible launch location, a weapon type, a number of weapons, a release time, and a target}. The impact time (time on target) is calculated as release time + weapon travel time. The cue is what makes the corresponding strike selectable in the mathematical model.
+> Note that deployable sensor efficacy is calculated for a target type at a TAI, using the TAI centroid, not for the exact nominated target's live position. 
+> If we had a weapon release at 10:00
+> ```
+> 09:40                  09:50                    10:00 
+> |---- valid cue window ----|---- assumed gap ----| weapon release
+> ```
+> Then you would need an observation in the 9:40-9:50 window (whether at 9:47 or 9:50) with a TLE of <=21.618km (>=TQ4)
+> Note that one ISR bird at one observation time can satisfy the two requirements of two launchers that are each sending munitions at the same time. The solver represents this as two requirement-satisfication records that point to the same ISR asset, the same ISR step, and the same `obs_hr`. It doesn't create one shared "observation object." Both are satisfies if the same observation opportunity's obs_hr falls inside both cue windows. Note that in a differnt world, two launches shooting two diffetn munitions could have different TQ requirements, which may or may not be satisfied by a single observation from a single ISR platform.
+> If we had two launchers both shooting at different targets in the same TAI... that same observation could still (in theory) satisfy those different cue requirements.
+
+- Target desginatino now happens before symmetry 
+
+______
+CALL with Eli:
+- The .90 and .20 p_kill stuff. Yeah, it's bad. The .90 is old shit from Andy, and the .20 was a miscommunication about how we should lower the thresholds, and instead someone lowered the probability itself. Oops!
+- Loadouts: Eli recalled that these things do/should exist. He referred to the same platform, loadout_id, effector, capacity table. He also thought that they had dome some sort of mixed capacity thing where if you can carry 6 LRASMs and 2 GOOBIES, you can also carry 3 LRASMS and 2 GOOBIES, ya know. Which also isn't optimal, and should probably come from like... the knowledge graph loadouts, you know. I don't know whether we do red stuff.
+- Eli said that the story was that the was doing some of this shit on his own, and Coogan strewn a bunch of Eli's research across these different activities in a temporal workflow.... and that Eli needed to be able to update it for a demo or BK or something and couldn't do it, didn't know how to run smackspace, whatever it might have been... but anyways, the point being that he had to update some stuff in the solver instead.
+- I think Eli and I were talking past eachother on the TAI thing... Specifically, two things:
+	- It seemed like I learned that ONLY THINGS WITHIN TAIs are targetable?
+		- I thought it was the case
+	- A definitional struggle on what was a principal target vs a residual target
+		- Is principal + residual MECE in terms of the red units that are under consideration? It seemed like he was saying that residual targets were... non principal ones that we were still going to strike/service to clear the way?
+		- It's true that principal/residual and fixed/targetable are different axes, right? It's true that fixed/targetable mean "inside TAI or not," right? So if there's an enemy SAM (principal or not) that's outside a TAI and threatening our shit... it's fixed and 
+
+__________
+
+
+
+# ISR-In-C2E.md file
+- Target Quality (TQ): An ordinal mission-level statement of how good target information must be for an action. 
+- Target Location Error (TLE): A quantitative estimate of location uncertainty, normally expressed in meters/kilometers and tied to a confidence convention. Lower TLE means a more precise estimated location.
+- What changes observation usability.
+- An approved BLUE laydown contains:
 
 
 
