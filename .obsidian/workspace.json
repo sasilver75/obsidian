@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fire Support Coordination Measure.md",
+                "file": "FQ-42 Vengance.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,207 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Fire Support Coordination Measure"
-            }
-          },
-          {
-            "id": "6e26603c9dde3d04",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-<<<<<<< HEAD
-              "title": "conflict-files-obsidian-git"
-=======
-              "title": "Jinking"
-            }
-          },
-          {
-            "id": "14d84260190c2b91",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Highly-Elliptical Orbit.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Highly-Elliptical Orbit"
-            }
-          },
-          {
-            "id": "beade23dc6817b3f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Ballistic Missile.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Ballistic Missile"
-            }
-          },
-          {
-            "id": "26f1233c609ff15a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Perennial Autonomy Bumblebee.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Perennial Autonomy Bumblebee"
-            }
-          },
-          {
-            "id": "f29bc031a97fab1f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Hypersonic Weapon.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Hypersonic Weapon"
-            }
-          },
-          {
-            "id": "1be1acd00222991c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AGM-114 Hellfire.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "AGM-114 Hellfire"
-            }
-          },
-          {
-            "id": "a8145789bdea6d6a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Brevity Code.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Brevity Code"
-            }
-          },
-          {
-            "id": "9e4d270b0c368b98",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bureau of Intelligence and Research.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Bureau of Intelligence and Research"
->>>>>>> 9214a3485240a7fca579e0e56e555d855e881883
+              "title": "FQ-42 Vengance"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -428,11 +231,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6e26603c9dde3d04",
+  "active": "fcab2ec0f6d0ac66",
   "lastOpenFiles": [
-<<<<<<< HEAD
     "Fire Support Coordination Measure.md",
+    "Enemy Most Dangerous Course of Action.md",
     "conflict-files-obsidian-git.md",
+    "Enemy Most Likely Course of Action.md",
     "Articles/The Basics of AI-Powered Vector Search (Jan, 2024) {Cameron Wolfe Deep Learning Focus newsletter}.md",
     "Smack/Projects/C2E Rewrite Project/Questions List.md",
     "Multiple Independently Targetable Reentry Vehicle.md",
@@ -450,16 +254,6 @@
     "Smack/KG Syncs/KG Sync August 31.md",
     "Smack/Projects/C2E Rewrite Project/Meetings",
     "Smack/Projects/C2E Rewrite Project",
-=======
-    "Hypersonic Glide Vehicle.md",
-    "Multi-Mission Affordable Capacity Effector Program.md",
-    "AIM-424 Long Range Air-to-Air Missile.md",
-    "AIM-174B Gunslinger.md",
-    "Perennial Autonomy Bumblebee.md",
-    "Ballistic Missile.md",
-    "National Counterintelligence Security Center.md",
-    "AIM-124 Malice.md",
->>>>>>> 9214a3485240a7fca579e0e56e555d855e881883
     "_attachments/Pasted image 20260827191827.png",
     "_attachments/Pasted image 20260827145958.png",
     "_attachments/Pasted image 20260827143118.png",
@@ -475,20 +269,10 @@
     "_attachments/Pasted image 20260823161411.png",
     "Tempest.md",
     "Spratly Islands.md",
-<<<<<<< HEAD
     "Fox.md",
     "Cost-Plus-Fixed-Fee.md",
     "Brevity Code.md",
-    "Ancillary Surface Craft.md",
-    "AIM-424 Long Range Air-to-Air Missile.md",
     "Smack/Projects",
-=======
-    "Exclusive Economic Zone.md",
-    "Forward Arming and Refueling Point.md",
-    "Operational Environment.md",
-    "Golden Dome.md",
-    "Smack/KG Syncs",
->>>>>>> 9214a3485240a7fca579e0e56e555d855e881883
     "Smack/Contracts",
     "Smack/KG Syncs",
     "Smack/Onboarding",

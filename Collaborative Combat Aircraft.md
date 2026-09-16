@@ -4,7 +4,7 @@ aliases:
 ---
 ## Increment One
 One or both will be receiving a contract for operational service in the next year:
-- [[General Atomics]]'s [[FQ-42A Dark Merlin]] (Gambit 2)
+- [[General Atomics]]'s [[FQ-42 Vengance]] (Gambit 2)
 - [[Anduril]]'s [[FQ-44 Fury]] (A wingspan that is nearly half the size of the Dark Merlin's)
 
 ![[Pasted image 20260714010849.png]]
