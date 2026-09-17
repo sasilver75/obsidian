@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FQ-42 Vengance.md",
+                "file": "Commercial Off The Shelf.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "FQ-42 Vengance"
+              "title": "Commercial Off The Shelf"
             }
           }
         ]
@@ -233,6 +233,8 @@
   },
   "active": "fcab2ec0f6d0ac66",
   "lastOpenFiles": [
+    "FQ-42 Vengance.md",
+    "Commercial Off The Shelf.md",
     "Fire Support Coordination Measure.md",
     "Enemy Most Dangerous Course of Action.md",
     "conflict-files-obsidian-git.md",
@@ -270,8 +272,6 @@
     "Tempest.md",
     "Spratly Islands.md",
     "Fox.md",
-    "Cost-Plus-Fixed-Fee.md",
-    "Brevity Code.md",
     "Smack/Projects",
     "Smack/Contracts",
     "Smack/KG Syncs",
