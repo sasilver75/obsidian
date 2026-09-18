@@ -3,6 +3,7 @@ aliases:
   - White Stork
   - Project Eagle
   - Napatree
+  - Swift Beat
 ---
 References:
 - [Blog: Inside Unmanned Systems: Pentagon Awards $500M to Perennial Autonomy for Counter-Drone Interceptors Proven in Ukraine](https://insideunmannedsystems.com/pentagon-awards-500m-to-perennial-autonomy-for-counter-drone-interceptors-proven-in-ukraine/)
