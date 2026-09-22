@@ -6,7 +6,7 @@ https://www.lockheedmartin.com/en-us/products/vectis.html
 https://www.twz.com/air/skunk-works-unveils-vectis-air-combat-drone-that-puts-a-premium-on-stealth
 
 
-Designed to fly independently or team seamlessly in a [[Collaborative Combat Aircraft|CCA]] fashion with crewed aircraft like the [[F-35 Lightning II]] or future next-generation platforms.
+Designed to fly independently or team seamlessly in a [[Collaborative Combat Aircraft Program|CCA]] fashion with crewed aircraft like the [[F-35 Lightning II]] or future next-generation platforms.
 - Engineered for both affordability and survivability, using stealth surfaces to minimize [[Radar Cross Section]].
 
 Still smaller than an [[F-16 Fighting Falcon]].

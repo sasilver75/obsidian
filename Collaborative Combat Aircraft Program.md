@@ -2,10 +2,14 @@
 aliases:
   - CCA
 ---
+An [[United States Air Force|Air Force]] program.
+
 ## Increment One
 One or both will be receiving a contract for operational service in the next year:
 - [[General Atomics]]'s [[FQ-42 Vengance]] (Gambit 2)
-- [[Anduril]]'s [[FQ-44 Fury]] (A wingspan that is nearly half the size of the Dark Merlin's)
+- [[Anduril]]'s [[FQ-44 Fury]] (A wingspan that is nearly half the size of the Dark Merlin's) 
+- [[Lockheed Martin|Lockheed]]'s [[Vectis]]
+
 
 ![[Pasted image 20260714010849.png]]
 Above: The YFQ-44A on top, and the YFQ-42A on bottom, now under developmenet as the FQ-44A and FQ-42A under Increment 1 of the USAF's CCA program.

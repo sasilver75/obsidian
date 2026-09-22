@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Unified Combatant Command.md",
+                "file": "Collaborative Combat Aircraft Program.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,55 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Unified Combatant Command"
+              "title": "Collaborative Combat Aircraft Program"
+            }
+          },
+          {
+            "id": "bd45c88ddd71ce80",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fifth-Generation Fighter.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Fifth-Generation Fighter"
+            }
+          },
+          {
+            "id": "e5b80d6c2ebad471",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lockheed Martin.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Lockheed Martin"
             }
           },
           {
@@ -79,7 +127,8 @@
               "title": "United States Air Force"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -279,11 +328,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fcab2ec0f6d0ac66",
+  "active": "bd45c88ddd71ce80",
   "lastOpenFiles": [
+    "Space Data Network Program.md",
+    "Mass Modular Aircraft Program.md",
+    "Fifth-Generation Fighter.md",
+    "Collaborative Combat Aircraft Program.md",
+    "Lockheed Martin.md",
+    "PMTiles.md",
+    "Unified Combatant Command.md",
     "United States Army.md",
     "United States Air Force.md",
-    "Unified Combatant Command.md",
     "HDT Hunter WOLF.md",
     "Machine Learning (Index).md",
     "Secure Socket Layer.md",
@@ -301,13 +356,7 @@
     "Smack/Projects/C2E Rewrite Project/Questions List.md",
     "Multiple Independently Targetable Reentry Vehicle.md",
     "Smack/Projects/C2E Rewrite Project/C2E Initial Examination Notes.md",
-    "Time-Based Force and Deployment Data.md",
-    "Coordinated Fire Line.md",
-    "Smack/Projects/C2E Rewrite Project/Master Document.md",
-    "Smack/Projects/Neo4j Migration/Neo4j Migration.md",
     "Smack/Projects/Neo4j Migration",
-    "Smack/Projects/C2E Rewrite Project/Meetings/C2E Model Pipeline Kickoff Aug 31.md",
-    "Smack/KG Syncs/KG Sync August 24.md",
     "_attachments/Pasted image 20260831120310.png",
     "Smack/Projects/C2E Rewrite Project/Meetings",
     "Smack/Projects/C2E Rewrite Project",
