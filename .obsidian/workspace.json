@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Smack/Smack Onboarding.md",
+                "file": "Unified Combatant Command.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,55 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Smack Onboarding"
+              "title": "Unified Combatant Command"
+            }
+          },
+          {
+            "id": "384646d75eed747f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "United States Army.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "United States Army"
+            }
+          },
+          {
+            "id": "e9a29708d4fb203c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "United States Air Force.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "United States Air Force"
             }
           }
         ]
@@ -233,6 +281,15 @@
   },
   "active": "fcab2ec0f6d0ac66",
   "lastOpenFiles": [
+    "United States Army.md",
+    "United States Air Force.md",
+    "Unified Combatant Command.md",
+    "HDT Hunter WOLF.md",
+    "Machine Learning (Index).md",
+    "Secure Socket Layer.md",
+    "US Special Operations Command.md",
+    "Joint Special Operations Command.md",
+    "Smack/Smack Onboarding.md",
     "Perennial Autonomy.md",
     "Commercial Off The Shelf.md",
     "FQ-42 Vengance.md",
@@ -251,27 +308,18 @@
     "Smack/Projects/Neo4j Migration",
     "Smack/Projects/C2E Rewrite Project/Meetings/C2E Model Pipeline Kickoff Aug 31.md",
     "Smack/KG Syncs/KG Sync August 24.md",
-    "Courses/SystemDesign/SDIAH Framework.md",
-    "Multi-Mission Affordable Capacity Effector Program.md",
     "_attachments/Pasted image 20260831120310.png",
-    "Smack/KG Syncs/KG Sync August 31.md",
     "Smack/Projects/C2E Rewrite Project/Meetings",
     "Smack/Projects/C2E Rewrite Project",
     "_attachments/Pasted image 20260827191827.png",
     "_attachments/Pasted image 20260827145958.png",
     "_attachments/Pasted image 20260827143118.png",
-    "Smack/Smack Onboarding.md",
-    "Smack/KG Curator.md",
-    "Smack/Smackspace.md",
     "_attachments/Pasted image 20260826141638.png",
-    "Docker.md",
     "_attachments/Pasted image 20260826124227.png",
     "_attachments/Pasted image 20260823172435.png",
     "_attachments/Pasted image 20260823171916.png",
     "_attachments/Pasted image 20260823171858.png",
     "_attachments/Pasted image 20260823161411.png",
-    "Tempest.md",
-    "Spratly Islands.md",
     "Smack/Projects",
     "Smack/Contracts",
     "Smack/KG Syncs",
