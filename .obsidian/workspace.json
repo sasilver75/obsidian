@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Saronic Technologies.md",
+                "file": "Combat Assessment.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Saronic Technologies"
+              "title": "Combat Assessment"
             }
           },
           {
@@ -330,6 +330,7 @@
   },
   "active": "bd45c88ddd71ce80",
   "lastOpenFiles": [
+    "Saronic Technologies.md",
     "Fire Support Coordination Measure.md",
     "AGM-190 Black Arrow.md",
     "Smack Technologies.md",
@@ -355,7 +356,6 @@
     "FQ-42 Vengance.md",
     "Enemy Most Dangerous Course of Action.md",
     "conflict-files-obsidian-git.md",
-    "Enemy Most Likely Course of Action.md",
     "Smack/Projects/Neo4j Migration",
     "_attachments/Pasted image 20260831120310.png",
     "Smack/Projects/C2E Rewrite Project/Meetings",
