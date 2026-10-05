@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Jet-Assisted Take-Off.md",
+                "file": "Commercial Off The Shelf.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Jet-Assisted Take-Off"
+              "title": "Commercial Off The Shelf"
             }
           },
           {
@@ -330,6 +330,7 @@
   },
   "active": "bd45c88ddd71ce80",
   "lastOpenFiles": [
+    "Jet-Assisted Take-Off.md",
     "Combat Assessment.md",
     "Saronic Technologies.md",
     "Fire Support Coordination Measure.md",
@@ -355,7 +356,6 @@
     "Perennial Autonomy.md",
     "Commercial Off The Shelf.md",
     "FQ-42 Vengance.md",
-    "Enemy Most Dangerous Course of Action.md",
     "Smack/Projects/Neo4j Migration",
     "_attachments/Pasted image 20260831120310.png",
     "Smack/Projects/C2E Rewrite Project/Meetings",
