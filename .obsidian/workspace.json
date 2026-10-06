@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Commercial Off The Shelf.md",
+                "file": "Vectis.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Commercial Off The Shelf"
+              "title": "Vectis"
             }
           },
           {
@@ -330,6 +330,8 @@
   },
   "active": "bd45c88ddd71ce80",
   "lastOpenFiles": [
+    "JP 3-60 Joint Targeting.md",
+    "Commercial Off The Shelf.md",
     "Jet-Assisted Take-Off.md",
     "Combat Assessment.md",
     "Saronic Technologies.md",
@@ -354,8 +356,6 @@
     "Joint Special Operations Command.md",
     "Smack/Smack Onboarding.md",
     "Perennial Autonomy.md",
-    "Commercial Off The Shelf.md",
-    "FQ-42 Vengance.md",
     "Smack/Projects/Neo4j Migration",
     "_attachments/Pasted image 20260831120310.png",
     "Smack/Projects/C2E Rewrite Project/Meetings",
