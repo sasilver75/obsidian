@@ -4,7 +4,7 @@ aliases:
   - Midcourse Phase
   - Terminal Phase
 ---
-References:
+wReferences:
 - [Video: Mscope: How Missiles Work (Engines, Guidance, Warheads, and History)](https://www.youtube.com/watch?v=_ahR6LqnyYg)
 
 https://en.wikipedia.org/wiki/Ballistic_missile

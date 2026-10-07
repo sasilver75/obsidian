@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Orbit.md",
+                "file": "AIM-174B Gunslinger.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Orbit"
+              "title": "AIM-174B Gunslinger"
             }
           },
           {
-            "id": "75fa32eb6a154fee",
+            "id": "aa897fb7e4f6460b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Jinking.md",
+                "file": "Purpose-Built Attritable Systems Program.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,16 +52,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Jinking"
+              "title": "Purpose-Built Attritable Systems Program"
             }
           },
           {
-            "id": "14d84260190c2b91",
+            "id": "44e8f8ed3b601076",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Highly-Elliptical Orbit.md",
+                "file": "conflict-files-obsidian-git.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,155 +76,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Highly-Elliptical Orbit"
-            }
-          },
-          {
-            "id": "beade23dc6817b3f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Ballistic Missile.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Ballistic Missile"
-            }
-          },
-          {
-            "id": "26f1233c609ff15a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Perennial Autonomy Bumblebee.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Perennial Autonomy Bumblebee"
-            }
-          },
-          {
-            "id": "f29bc031a97fab1f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Terrain Contour Matching.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Terrain Contour Matching"
-            }
-          },
-          {
-            "id": "1be1acd00222991c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AGM-114 Hellfire.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "AGM-114 Hellfire"
-            }
-          },
-          {
-            "id": "a8145789bdea6d6a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Brevity Code.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Brevity Code"
-            }
-          },
-          {
-            "id": "9e4d270b0c368b98",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bureau of Intelligence and Research.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Bureau of Intelligence and Research"
+              "title": "conflict-files-obsidian-git"
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -244,7 +100,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "byModifiedTime",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -287,13 +145,11 @@
               "title": "recent-files"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "d6ed0fac49903124",
@@ -2453,9 +2309,29 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9e4d270b0c368b98",
+  "active": "44e8f8ed3b601076",
   "lastOpenFiles": [
+    "Purpose-Built Attritable Systems Program.md",
+    "conflict-files-obsidian-git.md",
+    "AIM-174B Gunslinger.md",
+    "Small Business Innovation Research.md",
+    "AIM-424 Long Range Air-to-Air Missile.md",
+    "Hypersonic Glide Vehicle.md",
+    "Fifth-Generation Fighter.md",
+    "FQ-44 Fury.md",
+    "FQ-42 Vengance.md",
+    "Enemy Most Dangerous Course of Action.md",
+    "Perennial Autonomy.md",
+    "Multiple Independently Targetable Reentry Vehicle.md",
+    "Orbit.md",
+    "Jinking.md",
+    "Highly-Elliptical Orbit.md",
+    "Ballistic Missile.md",
+    "Perennial Autonomy Bumblebee.md",
     "Terrain Contour Matching.md",
+    "AGM-114 Hellfire.md",
+    "Brevity Code.md",
+    "Bureau of Intelligence and Research.md",
     "Hypersonic Weapon.md",
     "_attachments/Pasted image 20260831120310.png",
     "Space Data Network Program.md",
@@ -2464,25 +2340,7 @@
     "Smack/Projects/C2E Rewrite Project/Meetings/C2E Model Pipeline Kickoff Aug 31.md",
     "Smack/Projects/C2E Rewrite Project/Questions List.md",
     "Smack/Projects/C2E Rewrite Project/Meetings",
-    "Smack/Projects/C2E Rewrite Project/C2E Initial Examination Notes.md",
     "Smack/Projects/C2E Rewrite Project",
-    "Smack/KG Syncs/KG Sync August 31.md",
-    "Mass Modular Aircraft Program.md",
-    "Joint Integrated Fires Effects Center.md",
-    "Fifth-Generation Fighter.md",
-    "FQ-42 Vengance.md",
-    "Enemy Most Likely Course of Action.md",
-    "Enemy Most Dangerous Course of Action.md",
-    "Commercial Off The Shelf.md",
-    "Collaborative Combat Aircraft Program.md",
-    "Hypersonic Glide Vehicle.md",
-    "Multi-Mission Affordable Capacity Effector Program.md",
-    "AIM-424 Long Range Air-to-Air Missile.md",
-    "AIM-174B Gunslinger.md",
-    "Perennial Autonomy Bumblebee.md",
-    "Ballistic Missile.md",
-    "National Counterintelligence Security Center.md",
-    "AIM-124 Malice.md",
     "_attachments/Pasted image 20260827191827.png",
     "_attachments/Pasted image 20260827145958.png",
     "_attachments/Pasted image 20260827143118.png",
@@ -2491,8 +2349,6 @@
     "_attachments/Pasted image 20260825123732.png",
     "_attachments/Pasted image 20260824110516.png",
     "_attachments/Pasted image 20260819115547.png",
-    "Smack/WISR C2E Rewrite.md",
-    "Smack/Smackspace.md",
     "Smack/Projects",
     "_attachments/Pasted image 20260823172435.png",
     "Smack/KG Syncs",
