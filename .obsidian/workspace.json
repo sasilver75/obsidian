@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Vectis.md",
+                "file": "Battalion.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Vectis"
+              "title": "Battalion"
+            }
+          },
+          {
+            "id": "5a6e8fc86b6b8bb3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Army Echelons.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Army Echelons"
             }
           },
           {
@@ -128,7 +152,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -328,8 +352,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bd45c88ddd71ce80",
+  "active": "5a6e8fc86b6b8bb3",
   "lastOpenFiles": [
+    "Battalion.md",
+    "Brigade Support Area.md",
+    "Vectis.md",
     "JP 3-60 Joint Targeting.md",
     "Commercial Off The Shelf.md",
     "Jet-Assisted Take-Off.md",
@@ -353,9 +380,6 @@
     "Machine Learning (Index).md",
     "Secure Socket Layer.md",
     "US Special Operations Command.md",
-    "Joint Special Operations Command.md",
-    "Smack/Smack Onboarding.md",
-    "Perennial Autonomy.md",
     "Smack/Projects/Neo4j Migration",
     "_attachments/Pasted image 20260831120310.png",
     "Smack/Projects/C2E Rewrite Project/Meetings",
