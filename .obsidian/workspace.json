@@ -37,7 +37,11 @@
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< HEAD
                 "file": "Proliferated Low Earth Orbit.md",
+=======
+                "file": "Battalion.md",
+>>>>>>> 05b543bff1a4624ae792e5863aabd556a6b10097
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +56,35 @@
                 }
               },
               "icon": "lucide-file",
+<<<<<<< HEAD
               "title": "Proliferated Low Earth Orbit"
+=======
+              "title": "Battalion"
+            }
+          },
+          {
+            "id": "5a6e8fc86b6b8bb3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Army Echelons.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Army Echelons"
+>>>>>>> 05b543bff1a4624ae792e5863aabd556a6b10097
             }
           },
           {
@@ -2309,6 +2341,7 @@
       "command-palette:Open command palette": false
     }
   },
+<<<<<<< HEAD
   "active": "b6e12d5b01542a51",
   "lastOpenFiles": [
     "Proliferated Low Earth Orbit.md",
@@ -2334,6 +2367,37 @@
     "Brevity Code.md",
     "Bureau of Intelligence and Research.md",
     "Hypersonic Weapon.md",
+=======
+  "active": "5a6e8fc86b6b8bb3",
+  "lastOpenFiles": [
+    "Battalion.md",
+    "Brigade Support Area.md",
+    "Vectis.md",
+    "JP 3-60 Joint Targeting.md",
+    "Commercial Off The Shelf.md",
+    "Jet-Assisted Take-Off.md",
+    "Combat Assessment.md",
+    "Saronic Technologies.md",
+    "Fire Support Coordination Measure.md",
+    "AGM-190 Black Arrow.md",
+    "Smack Technologies.md",
+    "Smack/Smackspace.md",
+    "Joint Integrated Fires Effects Center.md",
+    "Fifth-Generation Fighter.md",
+    "Space Data Network Program.md",
+    "Mass Modular Aircraft Program.md",
+    "Collaborative Combat Aircraft Program.md",
+    "Lockheed Martin.md",
+    "PMTiles.md",
+    "Unified Combatant Command.md",
+    "United States Army.md",
+    "United States Air Force.md",
+    "HDT Hunter WOLF.md",
+    "Machine Learning (Index).md",
+    "Secure Socket Layer.md",
+    "US Special Operations Command.md",
+    "Smack/Projects/Neo4j Migration",
+>>>>>>> 05b543bff1a4624ae792e5863aabd556a6b10097
     "_attachments/Pasted image 20260831120310.png",
     "Space Data Network Program.md",
     "Smack/Projects/Neo4j Migration/Neo4j Migration.md",
