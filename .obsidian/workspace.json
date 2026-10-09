@@ -80,6 +80,30 @@
             }
           },
           {
+            "id": "7281c2b8ed48638f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Electronic Order of Battle.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Electronic Order of Battle"
+            }
+          },
+          {
             "id": "e5b80d6c2ebad471",
             "type": "leaf",
             "state": {
@@ -152,7 +176,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -352,8 +376,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5a6e8fc86b6b8bb3",
+  "active": "7281c2b8ed48638f",
   "lastOpenFiles": [
+    "Electronic Order of Battle.md",
+    "Army Echelons.md",
     "Battalion.md",
     "Brigade Support Area.md",
     "Vectis.md",
@@ -378,8 +404,6 @@
     "United States Air Force.md",
     "HDT Hunter WOLF.md",
     "Machine Learning (Index).md",
-    "Secure Socket Layer.md",
-    "US Special Operations Command.md",
     "Smack/Projects/Neo4j Migration",
     "_attachments/Pasted image 20260831120310.png",
     "Smack/Projects/C2E Rewrite Project/Meetings",
