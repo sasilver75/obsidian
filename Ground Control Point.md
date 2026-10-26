@@ -3,7 +3,7 @@ aliases:
   - GCP
   - Control Point
 ---
-A physical location on the Earth's surface whose precise real-world coordinates are known, and is used to [[Georeference]] (images -> coordinate) and [[Orthoimage|Orthorectify]] images (gemoetrically correct to remove tilt) and improve the absolute accuracy of spatial data.
+	A physical location on the Earth's surface whose precise real-world coordinates are known, and is used to [[Georeference]] (images -> coordinate) and [[Orthoimage|Orthorectify]] images (gemoetrically correct to remove tilt) and improve the absolute accuracy of spatial data.
 
 Core problem:
 - Satellites capture images. The image ahs pixels and those pixels need to be tied to real-world coordinates.You can use the sensor's GPS position and attitude (roll, pitch, yaw) to estimate where each pixel falls on the ground (this is called ==direct georeferencing==), though this has errors:
